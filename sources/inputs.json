@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-12",
+  "inputs": [
+    {
+      "logical_path": "STEAMOS_SWITCH_HANDOFF_2026-10-07_M8S_UPDATED.txt",
+      "sha256": "cb6f6cebab27ffaf3a37deee41bc19bc51fac9090e3e26400ec45dee5afab65a",
+      "bytes": 427059,
+      "included_text": false
+    },
+    {
+      "logical_path": "native-gamescope/docs/CURRENT-STATUS.md",
+      "sha256": "4bd64afb14d8a82ce91f571835f2dd5bc38ede54f434474948755f3aa5838270",
+      "bytes": 251359,
+      "included_text": false
+    },
+    {
+      "logical_path": "native-gamescope/docs/BASELINE.md",
+      "sha256": "d5a81c8ecb9095c4845ba92bf7f3b6e204c6371c0708b29498ea34ec36fa7f9e",
+      "bytes": 9062,
+      "included_text": false
+    },
+    {
+      "logical_path": "native-gamescope/docs/DECISIONS.md",
+      "sha256": "87d5b8a7459bdb492cd06663543ea8cd0088b3285ec6854de49cfa54142faf8a",
+      "bytes": 24688,
+      "included_text": false
+    },
+    {
+      "logical_path": "native-gamescope/reports/M9L17-trace17-stop-coordinator-disposition.md",
+      "sha256": "7dcfa0985d19de9767d488d5147d348484b8d239a408da37f7c3d37f2a3afdc0",
+      "bytes": 4410,
+      "included_text": false
+    },
+    {
+      "logical_path": "native-gamescope/reports/OPENCODE-M9L18-STEAM-STARTUP-STREAM-CAPTURE-PREPARATION.md",
+      "sha256": "815a780d5b56a5934d4badbca3365b0919d68848016ccd3b375a17a544a6eea8",
+      "bytes": 8961,
+      "included_text": false
+    }
+  ],
+  "user_checkpoints": "Later direct user observations summarized in docs/SOURCE-REFERENCES.md; transcript excluded."
+}

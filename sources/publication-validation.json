@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-12",
+  "scope": "Documentation/package validation; no hardware test",
+  "blocker_count": 85,
+  "duplicate_blocker_ids": 0,
+  "internal_links_broken": [],
+  "curated_reports": 221,
+  "report_hash_failures": [],
+  "source_payloads_included": false,
+  "hardware_runs_performed": false,
+  "status": "PASS"
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+_work/
+downloads/
+build/
+*.tar.gz
+*.zip
+*.log
+*.dmp
+*.core
+.env
+*.pem
+*.key

@@ -1,0 +1,95 @@
+# SteamOS on Tegra / Nintendo Switch: engineering history
+
+This is the public research record of an experimental SteamOS userland and
+Gamescope port to a Tegra X1 Nintendo Switch. It describes the implementation,
+the boundaries that actually passed on hardware, failed and abandoned approaches,
+and the remaining work. It is documentation, not an installation image or a
+claim that arbitrary Windows games work.
+
+**Status date: 12 October 2026.** The last measured development unit stopped on an
+EGLStream consumer error during Steam UI startup, before any FEX/game action.
+The accepted UI was restored. A startup-only capture package is PC preparation;
+no newer successful hardware capture is claimed here.
+
+The strongest completed paths are:
+
+- An NVIDIA Vulkan compositor with GPU conversion to Tegra block-linear/GOB
+  scanout and direct legacy Tegra DC `FLIP4` output to the LCD.
+- Automatic Steam UI startup, low-resolution UI, correct baseline orientation,
+  audio wiring and device integration on the tested console.
+- Native Linux x86-64 Super Meat Boy and FEZ, translated through Box64, with
+  native Wayland/EGLStream output and physical-screen user confirmation.
+- x64 execution and SteamAPI under ARM-FEX, offscreen D3D11 GPU rendering with a
+  private DXVK-Sarek variant, and raw Vulkan FEX synthetic presentation with
+  correct orientation, including a four-minute physical-screen confirmation.
+
+Those are different results. The four-minute FEX test is **not** an ordinary
+Proton game qualification; stock Proton 11.0-1 FEX is not advertised as repaired.
+Box64 Windows game menus/logos have been reached, but consumer stability,
+performance and presentation geometry still have open limitations.
+
+## Read the record
+
+| Document | Purpose |
+|---|---|
+| [Russian overview](docs/OVERVIEW-RU.md) | Practical introduction and current priorities |
+| [Architecture](docs/ARCHITECTURE.md) | Display, transport, UI, Linux games and Windows/FEX paths |
+| [Timeline](docs/TIMELINE.md) | Alpha bring-up through M9L18 preparation |
+| [Implementation catalog](docs/IMPLEMENTATIONS.md) | What was built and the exact extent of its acceptance |
+| [Blocker ledger](docs/BLOCKERS.md) | Resolved, open, retracted and bounded route-specific blockers |
+| [Closed branches](docs/CLOSED-BRANCHES.md) | Approaches that should not be retried without new evidence |
+| [Baseline and evidence rules](docs/BASELINE-AND-EVIDENCE.md) | Reproducibility, identities and limitations |
+| [Next work](docs/ROADMAP.md) | Concrete engineering direction, not permission to run old tasks |
+| [Source reference index](docs/SOURCE-REFERENCES.md) | How historical references and hashes are used |
+| [Machine-readable source inventory](sources/reports.json) | Curated source report identities |
+| [Credits](NOTICE.md) | Upstream contributors and origins |
+
+This is an original synthesis of the private development reports and user
+checkpoints. Raw logs, full private history, accounts, addresses, screenshots,
+core dumps, games, proprietary binaries, sysroots, firmware and prefixes are
+excluded. Historical source-report names and commit identifiers identify the
+development record; they are not commits of this public repository and are not
+promised as publicly fetchable commits.
+
+Corrections are retained explicitly. A report's early claim does not become the
+current conclusion merely because it appears in an old checkpoint. Runtime
+evidence and later corrections take precedence over plans and build-only claims.
+
+## Related source repositories
+
+The publication is divided by responsibility:
+
+1. **[gamescope-tegra](https://github.com/zodiakborodin98/gamescope-tegra)** — source port and reproducible graphical-stack recipes.
+2. **[tegra-lcd-backend](https://github.com/zodiakborodin98/tegra-lcd-backend)** — standalone direct-display component/probes and its
+   relationship to the integrated Gamescope presenter.
+3. **[steamos-tegra](https://github.com/zodiakborodin98/steamos-tegra)** — image/build integration recipes, external dependencies,
+   boot and service integration.
+4. **[steamos-tegra-research](https://github.com/zodiakborodin98/steamos-tegra-research)** — this history and blocker record.
+
+The separate repository names describe publication boundaries, not proof that the
+LCD component has already become an independent stable library or that a full
+fresh image has been tested on all Switch models.
+
+## Evidence vocabulary
+
+`PC PASS`, `hardware machine PASS`, `human visual PASS`, `gameplay PASS`, `natural
+lifecycle`, and `baseline recovery` are separate outcomes. A successful API call
+does not establish visible content. A successful synthetic test does not establish
+game compatibility. Compositor presents per second are **not game FPS**: repeated
+textures, UI frames and multiple windows can be included.
+
+The original CPU-compatible Steam path used private A57-safe Mesa/llvmpipe in the
+client. Gamescope itself rendered and scanned out on NVIDIA. Later System
+Composer removed the active llvmpipe BrowserComposer stage while retaining CPU
+CEF OSR output and the private libraries needed for compatibility. Neither
+history establishes GPU Zink rendering of the actual Steam UI.
+
+## License
+
+Original documents and metadata in this repository are
+**GPL-2.0-or-later**. See [LICENSE](LICENSE) and [COPYING](COPYING). Referenced
+software retains its own upstream license; no third-party source is relicensed
+by these documents. No Steam/NVIDIA runtime redistribution grant is made.
+
+This project is independent of Valve, NVIDIA, Nintendo, Switchroot, gman and
+Switchdeck. Their work is credited; their names do not imply endorsement.

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-12",
+  "file_count": 18,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 95,
+      "sha256": "e344bd2243f3c299ae92c04db282cc736dc9c77be6330b31f9425833dc11cba9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 95,
+      "sha256": "3f00c399e994526dba26def988ebd8563f30d1b89ca2302e6f0c79a0d2ad10b9"
+    },
+    {
+      "path": "COPYING",
+      "bytes": 18072,
+      "sha256": "b90ed8150a6d371c84b7dbaa680cd0e9893ef7c2558765e1e00930513efcfe3b"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 8834,
+      "sha256": "f36ec507b8c6ceb7db23157172817f88810368d8a1fe7c4b41cd6c562ef5c0b5"
+    },
+    {
+      "path": "docs/BASELINE-AND-EVIDENCE.md",
+      "bytes": 8220,
+      "sha256": "55bd1425434dd79d09b2b80498513e2725df9d8feaac46fd9c48528ad2c8bf9c"
+    },
+    {
+      "path": "docs/BLOCKERS.md",
+      "bytes": 18725,
+      "sha256": "0a905db807128c47ed2db9e0e8eb30285c06431dc2121a0a597c23340c6c44c9"
+    },
+    {
+      "path": "docs/CLOSED-BRANCHES.md",
+      "bytes": 6446,
+      "sha256": "d66a98495a3be8f679615d39245f3e61f05c1012bd56185a0d18058c5d8daa02"
+    },
+    {
+      "path": "docs/IMPLEMENTATIONS.md",
+      "bytes": 11338,
+      "sha256": "788460d18245cff5ca8fb1884e11240c0de2f79618ee50946df72e6993137cf4"
+    },
+    {
+      "path": "docs/OVERVIEW-RU.md",
+      "bytes": 8715,
+      "sha256": "87b55df743579d7277b996fa4f3cbcf282d30ccfc8b37633ec4468bf541e8bc3"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 4380,
+      "sha256": "c3ecd347d0f4f2b3966334ff19e8830b27af5b613b2d67f6c3bfe236adedfef9"
+    },
+    {
+      "path": "docs/SOURCE-REFERENCES.md",
+      "bytes": 4064,
+      "sha256": "4b90efcfe4bb60de94a266d118b958cdcb3f55ff9a28d50348dfff3f12d9f38c"
+    },
+    {
+      "path": "docs/TIMELINE.md",
+      "bytes": 13624,
+      "sha256": "7803d7136bc18da2fa1e1ad71fb9457401781ae5be984a2297f0e5e9cccb40df"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 732,
+      "sha256": "e1c06a7783e4aa687abab1a23dcf40298505a12e60522265f8807d5ebfd06dd2"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 3590,
+      "sha256": "b9863bc2206388a8118c4199a5173dcee1198f1adb20b54a4b1eb84ac2f5caff"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5641,
+      "sha256": "7f5781b0399012c2c18d894e399bb09114420a4448d2ba066581244234dec2ee"
+    },
+    {
+      "path": "sources/inputs.json",
+      "bytes": 1546,
+      "sha256": "c0430be8b2fdf1273af6f3bea9b76b59c57033dc578d581e6bc5b655a356969f"
+    },
+    {
+      "path": "sources/publication-validation.json",
+      "bytes": 357,
+      "sha256": "3f5ba7982bfeee3ae7295de723593805c9ee87faec18dab40d3a6ecadae86bbb"
+    },
+    {
+      "path": "sources/reports.json",
+      "bytes": 61264,
+      "sha256": "bd6d201af503900b39bf5482b4733577df85a4be51855f8f95a6fbeac00aa8dd"
+    }
+  ],
+  "excluded_inventory_files": [
+    "PUBLICATION-MANIFEST.json",
+    "SOURCE-MANIFEST.sha256"
+  ]
+}

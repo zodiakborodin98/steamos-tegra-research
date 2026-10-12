@@ -1,0 +1,15 @@
+SteamOS Tegra research record
+============================
+
+The original documentation and metadata in this repository are licensed under
+the GNU General Public License, version 2 or, at your option, any later version.
+SPDX-License-Identifier: GPL-2.0-or-later
+
+The complete GPL version 2 text is supplied in COPYING.
+
+References to third-party projects do not relicense their work. Valve Gamescope,
+gman's Tegra reference, Switchdeck, Switchroot/Linux, NVIDIA protocols, Mesa,
+Wine, DXVK, FEX, Box64, Wayland and other components retain their original
+licenses and notices. This documentation repository contains no proprietary
+runtime payload and grants no rights to redistribute Steam, games, firmware
+or NVIDIA driver binaries.

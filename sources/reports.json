@@ -1,0 +1,1556 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-12",
+  "purpose": "Curated original development report identities; raw report text is not distributed.",
+  "historical_commit_scope": "Original development record, not this public repository.",
+  "report_count": 221,
+  "reports": [
+    {
+      "path": "reports/installed-rootfs-identity.md",
+      "sha256": "433f24a79dbf8b180977f1dcd5765a5a69e4c4ba61e44a3d5e98d5baa3d35721",
+      "bytes": 753,
+      "historical_last_change_commit": "383a53d66a810d45e0ea0ecfb74385f8c4df7570",
+      "included_text": false
+    },
+    {
+      "path": "reports/M0-host-inventory.md",
+      "sha256": "a2ee511addd994360acd94e89171205e7768cdb301e9ba7e2096c58c86fd893e",
+      "bytes": 2682,
+      "historical_last_change_commit": "7977de4d981f06d96e76b89782b462d46481ebe0",
+      "included_text": false
+    },
+    {
+      "path": "reports/M0-inventory.md",
+      "sha256": "fc492d91e736c62e51688248cbd292668a0528ebe5b44ba93fd6f77274de2c05",
+      "bytes": 3440,
+      "historical_last_change_commit": "7977de4d981f06d96e76b89782b462d46481ebe0",
+      "included_text": false
+    },
+    {
+      "path": "reports/M0b-executor-check.md",
+      "sha256": "8a56ca9c2cbd461a81add488f8a589b21967b4dd28ea871f6dd218d2b2895fba",
+      "bytes": 2203,
+      "historical_last_change_commit": "7977de4d981f06d96e76b89782b462d46481ebe0",
+      "included_text": false
+    },
+    {
+      "path": "reports/M0c-target-plan.md",
+      "sha256": "41792adba04f249e0fe0d59031034fc3d189c45f072e2896dbf787014273b322",
+      "bytes": 4652,
+      "historical_last_change_commit": "d9007c9ecc0585cff0c195692630461216bd730b",
+      "included_text": false
+    },
+    {
+      "path": "reports/M0e-target-baseline.md",
+      "sha256": "d36fd0a30ae5e3b0da891d00f977fa17409bca3d36280cda8448c4f969d94218",
+      "bytes": 7527,
+      "historical_last_change_commit": "99515371d23ebbe02fa73f8386dcb86d08c8ee29",
+      "included_text": false
+    },
+    {
+      "path": "reports/M1a-references.md",
+      "sha256": "7ed53382326aa156b72460eebe7c6896a8709e92c15f4c14d7829307e2e0201a",
+      "bytes": 6368,
+      "historical_last_change_commit": "60024051e3d586873b23bb0fde175fb9baf5fa19",
+      "included_text": false
+    },
+    {
+      "path": "reports/M1b-presenter-design.md",
+      "sha256": "256331785247ed81a09fbacbba18419dd433c2d9d441c3ffe483242cebdc6715",
+      "bytes": 15570,
+      "historical_last_change_commit": "60024051e3d586873b23bb0fde175fb9baf5fa19",
+      "included_text": false
+    },
+    {
+      "path": "reports/M1c-kernel-retirement.md",
+      "sha256": "0dfb8ad6a6228bceff2f283822f8a7e663a8b6e04687227615c96e8867afbc08",
+      "bytes": 13390,
+      "historical_last_change_commit": "99515371d23ebbe02fa73f8386dcb86d08c8ee29",
+      "included_text": false
+    },
+    {
+      "path": "reports/M2a-capability.md",
+      "sha256": "ddeee5c3729a5f024c3c14dfd1053f8ebec53b7e936eda8a41b45be6455e8453",
+      "bytes": 6279,
+      "historical_last_change_commit": "8a5f991904169b2a1736d6624ffafe9bda327a4c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M2b3-recovery-accepted.md",
+      "sha256": "239e933dabce748b93d9474c3db2cd7fb6862fa74019d629822ca5ecac757edf",
+      "bytes": 1648,
+      "historical_last_change_commit": "8e35acc87ce3f31c149997672bf21ebd5c84032c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M2c-build-environment.md",
+      "sha256": "351e545b17f8e4efcd49cbde5d97deaa3392af6692ff94af5d8e65f9c5dd79ed",
+      "bytes": 6554,
+      "historical_last_change_commit": "383a53d66a810d45e0ea0ecfb74385f8c4df7570",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3a-probe.md",
+      "sha256": "41670798e647ebad707c686ae31c64ce495adc6b7f00a71c582557848e0a0531",
+      "bytes": 5300,
+      "historical_last_change_commit": "87e173740678e1e5d8fdd86158af49c8b4c43f6f",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3c-head-enable.md",
+      "sha256": "5e0472b25fa4389c8889c81b9411c51d308840d2927951b86b7f56e6df21f94d",
+      "bytes": 8266,
+      "historical_last_change_commit": "7c86e1f922bd8f469392968b532baca267f86744",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3d-enable-head.md",
+      "sha256": "fe5635d91c24e7063908234458fc39d5139aec51b6260a7f07b9f9f7a97c5144",
+      "bytes": 6977,
+      "historical_last_change_commit": "a976481bdc27f1fb1bc685e196630a65dadda223",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3e-first-frame.md",
+      "sha256": "b373c37da066b6cdd3f86c36738e361ecc33eff5ed8e3e0fc41e7e403222675a",
+      "bytes": 4820,
+      "historical_last_change_commit": "116e9db2e0b590988d099c33e9a7c740aa1a23bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3e-reuse-design.md",
+      "sha256": "ede99d4a2eec2854b589dbfd726dc0302ad42ee44fff9aac48cfcd8d8f596234",
+      "bytes": 4990,
+      "historical_last_change_commit": "116e9db2e0b590988d099c33e9a7c740aa1a23bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3f-bounded-reuse.md",
+      "sha256": "ed0122865af5b49ab3add581457d15faa3371d4b3690b85a41b2ddee18e0f553",
+      "bytes": 6676,
+      "historical_last_change_commit": "2b303dc89ad87cf800a439cf38ed1c634cf8fa22",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3g-result.md",
+      "sha256": "cf6cad5a98fe9139171dd2ed25af43048dd6f6dd003ac47a07c149253a2c7f18",
+      "bytes": 5539,
+      "historical_last_change_commit": "2b303dc89ad87cf800a439cf38ed1c634cf8fa22",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3g2-review-fix.md",
+      "sha256": "7a3fbf8f57e91fa9adf0b0e2e8547d9854de82aaa65ad9d873cf19a97eb42482",
+      "bytes": 4366,
+      "historical_last_change_commit": "2b303dc89ad87cf800a439cf38ed1c634cf8fa22",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3h-reuse-accepted.md",
+      "sha256": "86413e6862aad06ae11b8f77f20f7f35a87ee534019ff9f8c8c48a290ea05783",
+      "bytes": 5522,
+      "historical_last_change_commit": "837f29554c346210ba9af800af32dc41ded78e06",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3i-result.md",
+      "sha256": "756834ce05bd0f932703e1a4d09e55f2910a25e1fccedb0c62fdf429d28c444d",
+      "bytes": 5636,
+      "historical_last_change_commit": "35b0018b7b56c6bf758c3e2559cb4b9d9fa8fdaa",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3i2-result.md",
+      "sha256": "be5961cfd54372ff58f0fce501f0c30ad1a3acd04afc485a1e8066db5c0c22e7",
+      "bytes": 4560,
+      "historical_last_change_commit": "35b0018b7b56c6bf758c3e2559cb4b9d9fa8fdaa",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3j-600-review.md",
+      "sha256": "270f642dc9761e00f3da9075569d8cebf965d3f5efc94bbc8ad4e488fa1727bc",
+      "bytes": 6775,
+      "historical_last_change_commit": "102c4d7bc9b3a6559dcb5f3821ae8a59f046213e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3k-result.md",
+      "sha256": "2b81a466388eacaf1e5a484b7919fc507a156b5455bbbb06ca85fcecf63515f2",
+      "bytes": 4637,
+      "historical_last_change_commit": "7e334a477bbb7db081f1c5eac558a4a5ccebbbcd",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3k2-result.md",
+      "sha256": "a133d87ad76348d554c27d5a7859c15b336732562bdc156d583a32759562b4d5",
+      "bytes": 5304,
+      "historical_last_change_commit": "7e334a477bbb7db081f1c5eac558a4a5ccebbbcd",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3k3-result.md",
+      "sha256": "b649d6f80bfc8187a11bb0a2d9213dadffe0e4bdced46345da5b5ab7b8e72be0",
+      "bytes": 7920,
+      "historical_last_change_commit": "7e334a477bbb7db081f1c5eac558a4a5ccebbbcd",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3l-result.md",
+      "sha256": "22a37604fb64d0f8e48ba332190358a52ae37abbbd98b2c34b6a64fea4cefe5a",
+      "bytes": 5332,
+      "historical_last_change_commit": "190797adaaa770230b6885fbf9e9b2a270086300",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3m-live-state.md",
+      "sha256": "344057a4c7ccbe34bd602b741884a943d646219b5653db197299622edd81c8ee",
+      "bytes": 3024,
+      "historical_last_change_commit": "5ff7aaf0437652308640bffe431304b4cf108f91",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3m0-commissioning.md",
+      "sha256": "777dacf2470a518a41f590af5c278ad40ede81b60de54645507e209cc3c0c666",
+      "bytes": 8082,
+      "historical_last_change_commit": "621796aaf663ab628c68b29fd89fcdd2b333e26b",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3n-post-run-evidence.md",
+      "sha256": "956d53781ce9c05d0d222799efed1b859fe5dbcef9961cdd1f54876f38f1d2cd",
+      "bytes": 5884,
+      "historical_last_change_commit": "b2a6c25da04e24ffadf2930de1683629df0950ca",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3n2-archive-review-fixes.md",
+      "sha256": "be813f77a3c6abf67a146b1152929c107568c73420eac93045dd5e8f4aec9826",
+      "bytes": 8176,
+      "historical_last_change_commit": "b2a6c25da04e24ffadf2930de1683629df0950ca",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3n3-guard-terminal-proof.md",
+      "sha256": "981b3f242e01af72ed0ceefc1bb3086ad044f4866e0de0e2834569eb8bf05f22",
+      "bytes": 6126,
+      "historical_last_change_commit": "b2a6c25da04e24ffadf2930de1683629df0950ca",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3n3-lead-review.md",
+      "sha256": "536c44d51892506e191572a4a419bc3db00ba781a9b36db086866cce8b042757",
+      "bytes": 1293,
+      "historical_last_change_commit": "b2a6c25da04e24ffadf2930de1683629df0950ca",
+      "included_text": false
+    },
+    {
+      "path": "reports/M3o-commissioning-runbook.md",
+      "sha256": "976a37a7596ae3876d84822a0c9f1adf2941f1f4d079e64ffb92c9aeabe72a40",
+      "bytes": 8690,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M3o-result.md",
+      "sha256": "2d5641c800c10b925b58fb8060eefef661de2920fb7fdc502409792de6b232e0",
+      "bytes": 3435,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M3o2-evidence-review.md",
+      "sha256": "da719af4759a10274e0b1ae4250ef3c00ce00a7fe894bb9804421d96010cc89d",
+      "bytes": 3671,
+      "historical_last_change_commit": "5ff7aaf0437652308640bffe431304b4cf108f91",
+      "included_text": false
+    },
+    {
+      "path": "reports/M4-installed-boot-hashes.md",
+      "sha256": "25984617109c53fd038bac08366aa09445a74cac3faf89d32ac0325daa5f94a6",
+      "bytes": 1061,
+      "historical_last_change_commit": "818f0e48644bbb1f1fade8328c7afab99aeac9a8",
+      "included_text": false
+    },
+    {
+      "path": "reports/M4-kernel-provenance.md",
+      "sha256": "e1f60355dde8a2c5788883029440b1e9c90a92e49788d98b6ce32f95f43bd461",
+      "bytes": 4977,
+      "historical_last_change_commit": "116e9db2e0b590988d099c33e9a7c740aa1a23bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M4b-kernel-identity.md",
+      "sha256": "70a95e9895af6583bd84a0e84070eaa5fc395f60617019a5d25949a08c68132a",
+      "bytes": 5096,
+      "historical_last_change_commit": "818f0e48644bbb1f1fade8328c7afab99aeac9a8",
+      "included_text": false
+    },
+    {
+      "path": "reports/M4c-config-identity.md",
+      "sha256": "59c3f9668334bef33c533deaa64d92489622df5999786be85b4c4b81f6ea9c63",
+      "bytes": 3565,
+      "historical_last_change_commit": "818f0e48644bbb1f1fade8328c7afab99aeac9a8",
+      "included_text": false
+    },
+    {
+      "path": "reports/M5-storage-hypotheses.md",
+      "sha256": "e9a47fbf00fd6795d173fccadfe4a2c68135f8d31519451694c972c1c617af15",
+      "bytes": 9594,
+      "historical_last_change_commit": "559709e05d734611593eadb5b70acd5e408107bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M5b-result.md",
+      "sha256": "6cd2b6355bdfe038baf0cb55a68a449acb8b76db6cc86a0101b68093f2f13b5e",
+      "bytes": 5789,
+      "historical_last_change_commit": "559709e05d734611593eadb5b70acd5e408107bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M5c-zeroout.md",
+      "sha256": "07ebf1d42d7bdf11e47c944a45737f0686f599ec1cf5c32c4097fec0576ba5d9",
+      "bytes": 12666,
+      "historical_last_change_commit": "559709e05d734611593eadb5b70acd5e408107bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M5d-result.md",
+      "sha256": "15c1a21209d59d8311051cc1d4915a356c398c1a9a54aac8e019a148ae75f87d",
+      "bytes": 9485,
+      "historical_last_change_commit": "cc755a020758c9864e5f125e765fc40404fa00a8",
+      "included_text": false
+    },
+    {
+      "path": "reports/M5d2-result.md",
+      "sha256": "fd7ad35d83b4ffbaec807bd4f93bd5d879978327339e384702fdabac5f58af25",
+      "bytes": 6781,
+      "historical_last_change_commit": "cc755a020758c9864e5f125e765fc40404fa00a8",
+      "included_text": false
+    },
+    {
+      "path": "reports/M5e-result.md",
+      "sha256": "e0e2d2346da7485a53848dcda18470be8b09b6bddee008b21ce0a9564036061d",
+      "bytes": 11329,
+      "historical_last_change_commit": "559709e05d734611593eadb5b70acd5e408107bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6a-gamescope-tegra-boundary.md",
+      "sha256": "57396f036d4861eb2c48d8ea4a91e6df86892aab48d91ee610ab8d9be853d253",
+      "bytes": 10230,
+      "historical_last_change_commit": "c9d0069273d6c5fce64858f5aa02618bc9456683",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6a2-renderer-review.md",
+      "sha256": "bc57b9948449cd7567b4867a69102fbcc3b32eef59c42fb843d0515725ded970",
+      "bytes": 21205,
+      "historical_last_change_commit": "c9d0069273d6c5fce64858f5aa02618bc9456683",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6a2-supersession-notes.md",
+      "sha256": "b31dbd21f4b24166003886e581d442e6f5023a6946ea0b9c620ff829bd267531",
+      "bytes": 2911,
+      "historical_last_change_commit": "c9d0069273d6c5fce64858f5aa02618bc9456683",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6a3-result.md",
+      "sha256": "d418ed6fe43f686af00af7a48d6c9f318bbc941fba9634576587cbc9ea6f3093",
+      "bytes": 5475,
+      "historical_last_change_commit": "c9d0069273d6c5fce64858f5aa02618bc9456683",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6b0-client-transport-audit.md",
+      "sha256": "b64346a2eb49a2b891c7cba3f42271157bd446aa2ed46d0595b6987d39e41553",
+      "bytes": 9202,
+      "historical_last_change_commit": "5dff2030c48d05130a822a5e97aff53f0c8f0b55",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6b1-opaque-ipc-probe.md",
+      "sha256": "29224136d68fee8543382f00868362bfa82385c07cece73d00ee6e123c8d951b",
+      "bytes": 7144,
+      "historical_last_change_commit": "42aef488033a675020e6d82114796cf57923d71e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6b2-critical-ipc-fixes.md",
+      "sha256": "f30b439c32a6bca344bfb603554bf7b97f7112b64c62de122c0f1ce064a220f8",
+      "bytes": 6336,
+      "historical_last_change_commit": "42aef488033a675020e6d82114796cf57923d71e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6b2-lead-review.md",
+      "sha256": "80f8a5a6384124097b0bb014a8854dbc46f8b238bfae0e9662e5487c2db2a2dd",
+      "bytes": 1102,
+      "historical_last_change_commit": "42aef488033a675020e6d82114796cf57923d71e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6c2-report.md",
+      "sha256": "d7c8737d33afc31be4fb8680042082e69d5c99604ff11f052ed9cf0f9d7ace45",
+      "bytes": 11776,
+      "historical_last_change_commit": "8d6172acf40fa52837dd241f0738ceabdb2214a4",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6c3-result.md",
+      "sha256": "21448011294f8626807307703d05ceb2cd37ea1a3b8310e92b7b6482806fd969",
+      "bytes": 7809,
+      "historical_last_change_commit": "8d6172acf40fa52837dd241f0738ceabdb2214a4",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6c4-review-fixes.md",
+      "sha256": "cd85d71f97f6593309007f8c794227295563cfa4f3a5c5d9d7ce3cd6566392a5",
+      "bytes": 10853,
+      "historical_last_change_commit": "8d6172acf40fa52837dd241f0738ceabdb2214a4",
+      "included_text": false
+    },
+    {
+      "path": "reports/M6c5-checkpoint.md",
+      "sha256": "0614d051a48a7a2f472bdaa2cc22440c36225855f171cef7ed86678cf02169a5",
+      "bytes": 2820,
+      "historical_last_change_commit": "8d6172acf40fa52837dd241f0738ceabdb2214a4",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7b-critical-review.md",
+      "sha256": "0fabb31bf105001cceecf59aa3bb0fd2a4bbd59ac2be6181675060faf23f3abe",
+      "bytes": 1133,
+      "historical_last_change_commit": "eff36db73f5e47e254535f1ed81ee834b98f9f7f",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7b-lead-gate.md",
+      "sha256": "7726460a8d288b387897778f89514e4a5ac4913865a2c9909502375f9edb111b",
+      "bytes": 1478,
+      "historical_last_change_commit": "5ff7aaf0437652308640bffe431304b4cf108f91",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7b-result.md",
+      "sha256": "21ce55dd25f3828447a903950634ce0b3d40a437afe3fae509c297b32001b524",
+      "bytes": 3052,
+      "historical_last_change_commit": "eff36db73f5e47e254535f1ed81ee834b98f9f7f",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7b2-result.md",
+      "sha256": "f40ca6dd4782d47fa5fbcf3d75147d01fa46c1f6a8db5eb6535b924f1a177071",
+      "bytes": 1962,
+      "historical_last_change_commit": "eff36db73f5e47e254535f1ed81ee834b98f9f7f",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7b2-target-result.md",
+      "sha256": "741a5ed081931bfaf29c63392036dcd212254dcf2bd9e207dcc2ab87d38689b3",
+      "bytes": 1464,
+      "historical_last_change_commit": "eff36db73f5e47e254535f1ed81ee834b98f9f7f",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7c-black-display-recovery.md",
+      "sha256": "3e5e29559bd56e6f73f6d23d15b6fd8e596b90466711f0fb608a985886591d8a",
+      "bytes": 2656,
+      "historical_last_change_commit": "fb47eba05f3a641f23a5231820eb3c57dd4c139b",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7c-lead-disposition.md",
+      "sha256": "5a8ba246e0b2bb91379f46ea01697ce4284b154eb1378c16f1148ef324fc2cfb",
+      "bytes": 2000,
+      "historical_last_change_commit": "1eb3fabe49dc4008d5d2221bd9f4d7ffe21c2c93",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7c-result.md",
+      "sha256": "dceca706650e7d35d73caa7bd83ad0913d422874c656791a8a1b75768257f18c",
+      "bytes": 3649,
+      "historical_last_change_commit": "1eb3fabe49dc4008d5d2221bd9f4d7ffe21c2c93",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7c2-result.md",
+      "sha256": "f889ed45100422f5bfc4f85e74f198b3f13cc667db59cf931dd13584a90694d8",
+      "bytes": 3425,
+      "historical_last_change_commit": "1eb3fabe49dc4008d5d2221bd9f4d7ffe21c2c93",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7c3-result.md",
+      "sha256": "2f14ad85df79033225d539ba51619107a072d76a7992716bbcb08007349db9b1",
+      "bytes": 1290,
+      "historical_last_change_commit": "1eb3fabe49dc4008d5d2221bd9f4d7ffe21c2c93",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7c3-target-result.md",
+      "sha256": "96c3ddc026a711fe8d5d5cdd5b4bcdd2cfff76cd617fa15b1fa8e68e5c1a59c2",
+      "bytes": 1447,
+      "historical_last_change_commit": "1eb3fabe49dc4008d5d2221bd9f4d7ffe21c2c93",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7d-result.md",
+      "sha256": "261b6796007f07ee81de54947062aeea4a59700753814fa3e532bb8e53362592",
+      "bytes": 2304,
+      "historical_last_change_commit": "a31c95199e1ab7dcae565792dea440d2ceedbe88",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7d-target-result.md",
+      "sha256": "3187d8a3a404f5cc62f8f0a760788815f7a9c05e286bef9602408aaa70186df4",
+      "bytes": 706,
+      "historical_last_change_commit": "a31c95199e1ab7dcae565792dea440d2ceedbe88",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7e-opaque-ipc-result.md",
+      "sha256": "a4376e93e9cc53481e48703bb689b4ebde1c3beeefb431043b1d3b005151aeaf",
+      "bytes": 872,
+      "historical_last_change_commit": "b1c9afa85258854ba2ff421de5dc2b2c65b74014",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f-lead-disposition.md",
+      "sha256": "eae43d4ed492b2e0cee82cdb29ab12c5a1a86cd8b5d0f334b09b7086f74c667a",
+      "bytes": 1126,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f-result.md",
+      "sha256": "3186c9524762f689844c4a2d37a4479ad14b735527c4d3a28f37d77dbbe6e983",
+      "bytes": 3451,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2-opencode-review.md",
+      "sha256": "5e31b23185a63ab32bb929f32f107aaea55a3d309bd897d3dbb7a7d828e8d8f3",
+      "bytes": 5324,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2-result.md",
+      "sha256": "529c78b11084f689383493a4c70f35f4028c548337cb715fd9c104f5eaa3aadf",
+      "bytes": 3092,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2b-fix-result.md",
+      "sha256": "c29220756800af3e3376ecf974ce194d22e21045fdb3c11531ed2c27250c67f1",
+      "bytes": 7160,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2c-no-xwayland-mode.md",
+      "sha256": "892cc327b54760361b4146079564d8ab346f797c0b9370dfb02d360115ca730f",
+      "bytes": 5583,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2d-toplevel-listener-fix.md",
+      "sha256": "16c3133bb1e9c81dd3bfb2fe466f7a05eb3dc24047ba4c3518bc0178eedfb101",
+      "bytes": 9586,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2g-run7-result.md",
+      "sha256": "40acd2e4a35fc647aee421c38f7bf35d1d0ebccd2d2c51a00ee71a79860b7395",
+      "bytes": 3912,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2h-run8-gdb-diagnosis.md",
+      "sha256": "f8ad6eb673f3ef58f9771947cb32ff8d47feb3a96009eaa81426ddd315b937cf",
+      "bytes": 3106,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2i-drop-path-analysis.md",
+      "sha256": "a9ef14182f13c1ac85204504afa9dfee3225852ae2cf245eef60660b76ba51e1",
+      "bytes": 7124,
+      "historical_last_change_commit": "b0988113321ea22818a1f72f4971bc516cfa3571",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2i-run9-result.md",
+      "sha256": "426ade8e9b2492efb6b80f42c6c58456a4e1bbba6b828afe6836e295dd157efb",
+      "bytes": 4771,
+      "historical_last_change_commit": "b0988113321ea22818a1f72f4971bc516cfa3571",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j-discard-contract-fix.md",
+      "sha256": "ab2971904c963e0edec2c819181b5500767495c015ee4dbeedddd2cc2a4503b3",
+      "bytes": 8738,
+      "historical_last_change_commit": "b0988113321ea22818a1f72f4971bc516cfa3571",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-milestone-commit.md",
+      "sha256": "be3c0e4c3a83a5c99cb3a6b21bae25e37adc4044fa2ffe63a7803f71c42083e6",
+      "bytes": 4527,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-next-steam-step.md",
+      "sha256": "4d708f82c0cf917adef63672a3a4fde4bd9265e6851cf05b59d7a5a0d33ea81d",
+      "bytes": 7692,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-run10-prep.md",
+      "sha256": "33022939b72a0038a75a4f67bc8d53ca7d080bf973f97e43524fe1dfb56f0cde",
+      "bytes": 5506,
+      "historical_last_change_commit": "b0988113321ea22818a1f72f4971bc516cfa3571",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-run10-result.md",
+      "sha256": "18cb607120ecb93af3bbd5129c65d4c5507848dd0c367824b33c6679878db9c2",
+      "bytes": 3310,
+      "historical_last_change_commit": "b0988113321ea22818a1f72f4971bc516cfa3571",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-run11-prep.md",
+      "sha256": "6c7bf23142bd591a269ffad272de1ab2a281cdafe823a4ae9366897d86e20ffe",
+      "bytes": 6690,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-run11-result.md",
+      "sha256": "a4e0e2de6c1c46faa7979d3bf726c172d9d5553bc83e15772b4a5ac38d49ea6d",
+      "bytes": 4192,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-switchdeck-reference.md",
+      "sha256": "3a43e879c6b0467963e42380adaf94725096f2aeafcba43b5e1ed27d3c1bcc0f",
+      "bytes": 9891,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-xwayland-boundary.md",
+      "sha256": "cbf6d565c8d7214e6714c7050b11ebd56eb74df783377c3812afbfbe84a88f52",
+      "bytes": 10011,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j2-xwayland-libgbm-pair.md",
+      "sha256": "553ed4b1c1e319dfdcf0607a73d0f7a44cdfe1a1341ac102448b1b21cf04ae71",
+      "bytes": 4039,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j3-cursor-export-fix.md",
+      "sha256": "a51c1ffe7628a1251834363efa1997d4f497fc25c01b97dced6b0cad2f89b1f9",
+      "bytes": 7654,
+      "historical_last_change_commit": "cec1904ec0c116d4351fe21814b88b694c94a5d7",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j3-libgallium-sigill.md",
+      "sha256": "c565f97417405027e24c0583693d6c220a2d28e7ce35c3a0b20f9dedc85decfb",
+      "bytes": 7860,
+      "historical_last_change_commit": "ac38d4caf627e6467aceeac8f0e4e52f01201338",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j3-run12-prep.md",
+      "sha256": "b2065a2741312decea823f9c3e4becee0c1aa3c3068da458a96f6fe338d4c39d",
+      "bytes": 5511,
+      "historical_last_change_commit": "cec1904ec0c116d4351fe21814b88b694c94a5d7",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7f2j3-run12-result.md",
+      "sha256": "0393e511b733ab2b7762247c74abae54de31896edf74dc999626581c9d38ac06",
+      "bytes": 3821,
+      "historical_last_change_commit": "cec1904ec0c116d4351fe21814b88b694c94a5d7",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-cpu-steam-autostart-activation-result.md",
+      "sha256": "737d6d8e2759553c3ffb5154634f44ae10b79166b98510a6dda12ea78a8c7ce0",
+      "bytes": 4833,
+      "historical_last_change_commit": "803452243c4ce98131111c1110321fab188b727c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-cpu-steam-autostart-postreboot-final.md",
+      "sha256": "b23086dcf7d852b3d3d9dabf5f63c1202425d9814a1c0023c52178b599f1665c",
+      "bytes": 2750,
+      "historical_last_change_commit": "04da88768e56dcc2d78d50fb3932460516641a8e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-cpu-steam-autostart-prep.md",
+      "sha256": "a296a0bb25e1e43aec2253225e79cae67609a8d55d21d8bd01f28765a6b04b28",
+      "bytes": 5495,
+      "historical_last_change_commit": "307f5b7d956ddfb937ec0053a07707435e5ba5c2",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-cpu-steam-autostart-xwlfix1-result.md",
+      "sha256": "d0854d3757182a91e3fedbb226b1e3cbd46df9dc8b442b5ec9c554e55f241cc4",
+      "bytes": 5149,
+      "historical_last_change_commit": "569f3c92ee93099b90c9ed99a0897a261f1864cd",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-full-stack-fixes-checkpoint.md",
+      "sha256": "a6937878580f4aa344ede2398116ae09902eefa1506af268178974e75eaf7044",
+      "bytes": 2826,
+      "historical_last_change_commit": "67ae88f2e05ce0797c805b463bbaee3f4f91eaa1",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-glx-dri3-eglstream-reassessment.md",
+      "sha256": "cb768b69563779d4989651acb07d28e3d95ae6e38a91f03b99dfb396fdef7ebd",
+      "bytes": 6317,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-glx-snapshot3-run-result.md",
+      "sha256": "3fcb232c8ac46875b07cc63340094452404a3aac948b101bd357615597585bfc",
+      "bytes": 36674,
+      "historical_last_change_commit": "f88a00f493347ccbe38bc28290259bd861c6e5d1",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-llvmpipe-aarch64-init-prep.md",
+      "sha256": "7405377ee64714116886aba3d14c89c4cbfd97fc04590d3f2fab229dbb964637",
+      "bytes": 7523,
+      "historical_last_change_commit": "0d59e565569e321c2d863c03156c9f3311fa244d",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-llvmpipe7-create-error-probe-run-result.md",
+      "sha256": "e55fe324137ac7ed78b025a91be7377427ef4f7bdaf4fb1e5e9621c2a340a826",
+      "bytes": 6453,
+      "historical_last_change_commit": "6d1aa5971a85443fbb80644600b8a30c6b35bd50",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-llvmpipe8-functional-probe-run-result.md",
+      "sha256": "31be2405a5bea8ac36908df136c1a3c45137ff71d9c482d6373eb5448bd33153",
+      "bytes": 7702,
+      "historical_last_change_commit": "147f33374609681e6325485508c02a80702858e5",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-mesa-a57-client-build.md",
+      "sha256": "3557ef94b1a5011a31210e21c4596409fcfda2158f92d2c9c72e17497f1fc8f6",
+      "bytes": 8695,
+      "historical_last_change_commit": "26e47a3178743b61879cdbbf80ed814b671db6cb",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-mesa-a57-llvmpipe-provider-closure-v4.md",
+      "sha256": "d757d014a9e587ad0914e9d217fbfafa2080dea7f5459efadd1f3e948b958617",
+      "bytes": 4295,
+      "historical_last_change_commit": "1ab84ab5869e6b15ed484afa5f269a88f5efa0cb",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-mesa-a57-source-configure-B.md",
+      "sha256": "d504c69beac9a36387ce2e07421591855f22a67bedc956ccb4cb78c8bf302724",
+      "bytes": 5988,
+      "historical_last_change_commit": "f88a00f493347ccbe38bc28290259bd861c6e5d1",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-run16-result.md",
+      "sha256": "c4f936cb58ce7f663dee0b0838d031e5447918b9e70b47dc8996daab24d99651",
+      "bytes": 2766,
+      "historical_last_change_commit": "2a299aec7f92a1251a3b7340121448835323c82c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-run19-result.md",
+      "sha256": "99e4df56d7f23ccc96940bd60844b4b2d17b15ecf1a6fd61286ce24194722201",
+      "bytes": 5242,
+      "historical_last_change_commit": "bf472afb3065b56adcfb363b7d4c78b563aea10c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-run2-attribution-A.md",
+      "sha256": "65e62738eb4bea9c400cf650270249dc2458c908016f59cf984c81adcf8ebdc4",
+      "bytes": 13228,
+      "historical_last_change_commit": "28a40876e5458d8edf3d7db7e09255a561551672",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-run2-glx-blocker-B.md",
+      "sha256": "bec81e464183c9a630e6414b76183d20736dd26dc25a90b53b673725ecf1df45",
+      "bytes": 21056,
+      "historical_last_change_commit": "28a40876e5458d8edf3d7db7e09255a561551672",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-run25-result.md",
+      "sha256": "6bad3180986fc86d9b9dff5d297a27e51fbb66a68ddea5b6bd457185da5a039f",
+      "bytes": 12354,
+      "historical_last_change_commit": "32a04240e86821e3f297709f6351c8604ccf84ab",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-run31-result.md",
+      "sha256": "250dece8928291615fe681e99fe126e90cee007a72114e452eb792873d91364b",
+      "bytes": 18599,
+      "historical_last_change_commit": "5fc72cab2cbabf4b481686dfac309d062a1ccc13",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-runG-result.md",
+      "sha256": "ca90609de7c91c58d500456a92cf76094e47e644a0857b31810d5e9cbba7642c",
+      "bytes": 13804,
+      "historical_last_change_commit": "7fbc76f2d5a1784ae79f14b6d2a14d1ae195f12e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-steam-llvmpipe-stretch1-run-result.md",
+      "sha256": "88d2d72aa65030177b16e7e6e5766c6d95561a5d633cd6128b7e73f78f19a2b8",
+      "bytes": 3646,
+      "historical_last_change_commit": "d7114ae664a486464c11622ec034f9c47e4c20cd",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-steam-mesa-a57-llvmpipe11-run-result.md",
+      "sha256": "6e5961dcd64f34a04f8204d9618b70fc0f02e7a1399e6f719482c3b1f3440a0a",
+      "bytes": 8678,
+      "historical_last_change_commit": "9532afdf6cffa258e12c36ae78f4a4d6f85326e0",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-steam-mesa-a57-llvmpipe8-run-result.md",
+      "sha256": "ee37e30e276d06a3594302959e8360debbc165c60b78b96e0e781481d9c8426a",
+      "bytes": 6374,
+      "historical_last_change_commit": "5497d7ba028f8dd02a083d284139aedfe3590ed6",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-steam-mesa-runtime-libgcc-qual.md",
+      "sha256": "4d071e0992870bbe3182a552ee058f2763139a5a2f8c0cad618986f315f249bf",
+      "bytes": 9306,
+      "historical_last_change_commit": "f5fd79fe5db0902a714844c8e5802ec2aea543d2",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-expwsi1-run-result.md",
+      "sha256": "4d81c14193dc02773c9e1351ff6347f84e5a2b76e9161d8f8c0c38789eafbf89",
+      "bytes": 5642,
+      "historical_last_change_commit": "29e47196ac5131443e18648c08ff86e6097d2200",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-renderzink1-run-result.md",
+      "sha256": "c91529b3f53b7f3b132cb44d5f0d416fa3653cea0025659fce15c8bb5595e0a3",
+      "bytes": 6954,
+      "historical_last_change_commit": "92ea597f738f0113177160745607d27ce53b3937",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-t2-run-result.md",
+      "sha256": "c764d1b8e0a127b8937d63d92324bedcc9feecd3d81b34c269b89649d41c944b",
+      "bytes": 8586,
+      "historical_last_change_commit": "d72d5fabf70d0d8ddb1955b30c3f4a76cc6bb640",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-t3-client-init-decision.md",
+      "sha256": "f100434c410e2d204f2d949770e73a8b119c9dd848d454b600515f7fd81f7482",
+      "bytes": 7428,
+      "historical_last_change_commit": "ba5965836bbf547572969fa995c623ba10ca8ff7",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-t3-headless-helper-design.md",
+      "sha256": "4917b29ddb2840c6555c3f69e74aadcea627e10bb47b042e922f53181dae177f",
+      "bytes": 10016,
+      "historical_last_change_commit": "9605d7bad1f38ee3185a62ddbbd5162e2e73f0bf",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-t3-helper-host-gate-revision.md",
+      "sha256": "d8cf231cc568a3eea47417285cede8d8f8d09f902b8e6e7313d6bf55dc8a1bda",
+      "bytes": 9986,
+      "historical_last_change_commit": "34bb1602c680ec18dedab7857dde32710c8e8109",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-t3-steam-run-result.md",
+      "sha256": "aa6bb5a37da89fc159ae147297ec92c9e5c5b7cb6e9e94e8c5469b2d2b0aa334",
+      "bytes": 6616,
+      "historical_last_change_commit": "2215c16839f71ecd85c4b5e199a9ed52b1f91327",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-transport1-run-result.md",
+      "sha256": "065bb2687ab59e383b3ef8b12278a34adaa9c64a3dececa89ec7a019bd2fb87a",
+      "bytes": 7018,
+      "historical_last_change_commit": "b14e9a8ebf72dd9df6eff072ba2db164fefccbd6",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7g-zink-zdisc2-run-result.md",
+      "sha256": "1bd301a6005a11f72d270a6ff550dd91a129b0692f9708cf2982b9b8f0f994a9",
+      "bytes": 5760,
+      "historical_last_change_commit": "7040a25d916d7e7859d022a3f0804b5315e05e92",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7h-egl-provider-discovery-checkpoint.md",
+      "sha256": "e97dfe7c9e1752344d9ba16a45a699c102e1342d53eb834b7e12bb2c1f52d585",
+      "bytes": 4337,
+      "historical_last_change_commit": "2adde3eeb9f7b9588b4d378232207ab5a9a5c6a4",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7i-cef-egl-renderer-attribution-checkpoint.md",
+      "sha256": "e2f387134c83eda2ba56e9c9d8307955237e7d34a0616c60118a0e855eae0379",
+      "bytes": 3083,
+      "historical_last_change_commit": "fb58801dc4d84f46863ee788851306d5fbdfc129",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7j-cef-nvidia-egl-definitive-attribution-checkpoint.md",
+      "sha256": "804f24a1462eac9a06cdba97e2b70ad0a51f57f44402308883fa52822a4279fc",
+      "bytes": 3139,
+      "historical_last_change_commit": "2acaa5df7ec993fde626b6e6da627556935268dc",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7k-cef-egl-presentation-boundary-checkpoint.md",
+      "sha256": "8c307719388022ac22c0a9fdb8b51756cb4dcd7f71fb0e9e9df3dbbb17cd5270",
+      "bytes": 3300,
+      "historical_last_change_commit": "2f6912e21307163d7bc493fb7e7bb5a7a3bbd30e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7l-cef-egl-loader-path-checkpoint.md",
+      "sha256": "ed725ff3c2dd39c61f5af6e0edbb628dafec103c864c08b15ffcdc138157f532",
+      "bytes": 3368,
+      "historical_last_change_commit": "58661f02f1ef7861d434b53d0535452dadc57958",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7m-cef-native-egl-load-interception-checkpoint.md",
+      "sha256": "6fa833280214b3e6a550f1d52d331eaaf1ec69470dbf496bb9a4d7dee50fb0bc",
+      "bytes": 3925,
+      "historical_last_change_commit": "b723299e31fdb855b79a2923e533c43ae05b7841",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7n-cef-egl-proxy-real-glvnd-checkpoint.md",
+      "sha256": "8b2925ad2fd0e0db7e50631415e9b8aa155974691bc625988f74a6581a9a5d51",
+      "bytes": 3502,
+      "historical_last_change_commit": "a675493c222afb91606f4438435c0bdb0f4f9737",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7o-cef-egl-platform-forwarding-checkpoint.md",
+      "sha256": "e415766b52de83de540a6709c11fcc4f5de88d00abe4eb3b5c386144fd75ce4c",
+      "bytes": 3701,
+      "historical_last_change_commit": "68087d50514a0b30a6d1653408ecf1d4419ce5d4",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7p-cef-egl-resolver-interception-checkpoint.md",
+      "sha256": "f796c14cc8132cdd935da4569f36747bd16d078ab116cc6896f606aebadd8f0f",
+      "bytes": 4158,
+      "historical_last_change_commit": "7705ffd26cd57fcabf0a3f1dfae49e54b35300e2",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7q-angle-device-display-controlflow-checkpoint.md",
+      "sha256": "2cac8b845b8c6c5b1eaaa1228c0afe0b1801cd142c4e2876dd7019bfc0c2f29a",
+      "bytes": 12673,
+      "historical_last_change_commit": "b6ffab04a8a92614bd339fcbfd9a855fa2f1aa1b",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7r-angle-egl-dispatch-provenance-checkpoint.md",
+      "sha256": "ce0c2c8eb2440d20f9b227ecef8dbd04925bb22fbc52ed65c954c234272a279e",
+      "bytes": 8920,
+      "historical_last_change_commit": "969fc599a2d8df6baa8835113b6d5e741fd1fa51",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7s-chromium-x11-presentation-path-checkpoint.md",
+      "sha256": "44805cce35c34bb4f1a3d55ab76deafea8abab68e659ecf08ae7902dc2bf4e65",
+      "bytes": 7460,
+      "historical_last_change_commit": "a33a289dde56f3ea015da52115d884f9fc1f2488",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7t-dri3-gbm-transport-checkpoint.md",
+      "sha256": "c9d8852452d13d70de1b5ce0be8196b070e50a35acbbfb2ce2218863b069984b",
+      "bytes": 8518,
+      "historical_last_change_commit": "d13c15b68b8084f55ff91b04ff3545ff1009f997",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7u0-tegra-udrm-gbm-feasibility-checkpoint.md",
+      "sha256": "4463f5425b8cc0b4250f2a3d3d2572f263d736906dbc6c81cece0eb6f0f9d44b",
+      "bytes": 6532,
+      "historical_last_change_commit": "8475377ef1193559936ac3537d17cd4ba2dd8142",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7u1-tegra-gem-create-eacces-checkpoint.md",
+      "sha256": "c4cc3b4ab7ce16dc8628d6dd96a9b8bd8f9ced9e6f80cd986dce984abee7499e",
+      "bytes": 6828,
+      "historical_last_change_commit": "810b1d2d38417dada7a8a7a59fdf4f19c02182c6",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7u2-nvidia-reference-gbm-checkpoint.md",
+      "sha256": "fce8d65d07384677166e5be0454165e188b4b9548377e9e33d8ff1eb58c5d6ce",
+      "bytes": 8017,
+      "historical_last_change_commit": "e78a606f4dc3a7e97c17a32c86fd61a672895ca2",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7v-xwayland-eglstream-feasibility-checkpoint.md",
+      "sha256": "7e44c0e09b727ff5b1e3739ff4c02842419acdfdc7a4f92c4ead1ae6a2f37400",
+      "bytes": 7746,
+      "historical_last_change_commit": "7e51458cb59150d7f9b42a5cdb9e2d0446694a8e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7w-cef-ozone-wayland-eglstream-checkpoint.md",
+      "sha256": "a4bc1b45afd7569991d19a122ea9e299e868f4975d196f7c4cc11d97be484026",
+      "bytes": 8334,
+      "historical_last_change_commit": "b486044a96e06addf73bb7ae24b35006dd208424",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7x-cef-wayland-gmb-sharedimage-checkpoint.md",
+      "sha256": "8aa3951d7f65e3676b81c799c6ea5d305c8339d11e4327099bee7f130a3a1d2b",
+      "bytes": 5382,
+      "historical_last_change_commit": "28a74af5daa728594e117e49cee93b7d277938d9",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7y-cef-wayland-notreached-attribution-checkpoint.md",
+      "sha256": "0f18191be525c37972acdd93c5a22c63509b3981aee6ab771a20d8b171734f16",
+      "bytes": 8407,
+      "historical_last_change_commit": "c1767b1df8ee2d915a3d528b1f001a4af89c12e5",
+      "included_text": false
+    },
+    {
+      "path": "reports/M7z-cef-wayland-residual-sigill-checkpoint.md",
+      "sha256": "daa5a1e040007df16ac3a476792d8f9bf31d5d534742fa10a448f660007bbd12",
+      "bytes": 11402,
+      "historical_last_change_commit": "3d9a8c7212ce111aa223dc96ace1cb2fe69d75f5",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8-steam-cef-browsercomposer-topology-checkpoint.md",
+      "sha256": "e47b5d82f2c12a340cc4bb7df16f1a21da05f429649a481962a25e25d09214b7",
+      "bytes": 8720,
+      "historical_last_change_commit": "a0bfedbd8fdfeaba9c65f69a206d8b9850968ffe",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8a-hybrid-x11-osr-nvidia-egl-checkpoint.md",
+      "sha256": "6ff64d1c05468b245ea3e697103b089fb9e3cede0a454a6d5156b235cb42bc41",
+      "bytes": 7670,
+      "historical_last_change_commit": "953613cb83b6be90cfa3ab4d7ce5deaddc14c0df",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8b-hybrid-osr-functional-acceptance-checkpoint.md",
+      "sha256": "b41ccee9f08720c8f2c56e397b459dbc41ca7455ed6fc750bc9bd03bd2b8801a",
+      "bytes": 7236,
+      "historical_last_change_commit": "53a22c40ba39dc3e04a9c518a539f582edd75489",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8c-human-visual-performance-ab-checkpoint.md",
+      "sha256": "2e00b144fe551e2f35543a3d291ed4a572749b69b5f618a55b7aeaebab86eb73",
+      "bytes": 8028,
+      "historical_last_change_commit": "be1c9841b4087e33f8ef3979f65fc08e907a388c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8f-game-input-focus-diagnosis.md",
+      "sha256": "5cfca77afccd6106e8e812fa89aeebc6b4ea974b0e3798fa01b3759caafc9c07",
+      "bytes": 3235,
+      "historical_last_change_commit": "25d10c664d9e6a416537b864dca533b63e8ee0b0",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8g-native-wayland-exclusive-input-focus-checkpoint.md",
+      "sha256": "fb7f4d7292d895113723600d28f47825a640b8b0624e0083f1b52bd42326da53",
+      "bytes": 8454,
+      "historical_last_change_commit": "904da51d3d901497245150734d62ff2a0e019a2d",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8h-composer-nvidia-experiment.md",
+      "sha256": "2e845b012637988b624494e7fcaedf688da5eb1f362bb725dede755c0347ef9e",
+      "bytes": 11278,
+      "historical_last_change_commit": "2b8dac9a55c467f3f95b139dac6d77dddd1d0f88",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8h-composer-nvidia-research.md",
+      "sha256": "ac996e1b0bf4f7436964f079ea2e3c5c6fd0536641aaee6572206884af9efcd5",
+      "bytes": 18633,
+      "historical_last_change_commit": "fcb37ffc2fb78db1ed784b226b0572f63521340e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8h3-alternate-browser-composer-discovery.md",
+      "sha256": "a286a1da7753501bda78d54852933d3c3a35f23f368fbb37dfe38a8d3570a548",
+      "bytes": 14871,
+      "historical_last_change_commit": "ab3c25fc02c4657528ddfb90a78ba63c4b2c185c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8h4-production-composer-runtime.md",
+      "sha256": "96dc8e72f6ac76b10964d4213b30b16a358ccf401cd5aa6f2215ac28fca30b35",
+      "bytes": 9792,
+      "historical_last_change_commit": "eae8d72dd89e5dd2decc9a8ae477c8c7e3277022",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8h5-parent-composer-selector.md",
+      "sha256": "fb6c644a2827bc58cf8a7b0667aa025b7134ee124d4c9618a0313a270463c980",
+      "bytes": 13986,
+      "historical_last_change_commit": "320abee2ddb855f20b71023caf8eac60bc6361ae",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8i-system-composer-launcher-promotion.md",
+      "sha256": "5b476711da1360058a29e78e9c084e12fd6a6ebbcc62cb72ac0e32c9f1a66ef0",
+      "bytes": 15522,
+      "historical_last_change_commit": "ae5ec9c32f35dd1654bcbe2fa97aa76aedb6b841",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8j-smb-resolution-transition-regression.md",
+      "sha256": "53075ad0734d75b255935a411d7910898f295958aab0385ae3042974e76bb581",
+      "bytes": 23678,
+      "historical_last_change_commit": "17900e5bc089e59558c2b39f897d46d67045f098",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8k-zink-continuation-from-proven-boundary.md",
+      "sha256": "4d995c86b46f952d4758a16fd8e906c0d2a191ee05ad2c9443daa22021609960",
+      "bytes": 22374,
+      "historical_last_change_commit": "5b9683d5d4a42b12c97cc2786c4d64977f8e6390",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8l-ui-stage-bottleneck-localization.md",
+      "sha256": "95e47795cbb3f882f39f415b6dc4f601ff1569c3f9bc179df76e0d76d699039b",
+      "bytes": 22441,
+      "historical_last_change_commit": "599802924cc4679f3a7733f621b5637eddedd21a",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8m-cef-osr-viz-bottleneck.md",
+      "sha256": "2b0227915d6f5f20066b30f08b62b4dac7e6cb7f144f35bdfedb456f857b44e6",
+      "bytes": 23223,
+      "historical_last_change_commit": "1331a11ee493a307f21c0847289a38dc32e9f923",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8n-cef-software-compositor-discriminator.md",
+      "sha256": "36593c1f0cfccf539f4c02a88826c2a9cb9f63a85b175fda83a54beeb371c4da",
+      "bytes": 13824,
+      "historical_last_change_commit": "c074da561660ed9c5aa82949878af3818c8f6085",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8o-tegra-udrm-gbm-cef126-feasibility.md",
+      "sha256": "4cfcbcc2c653e09e72d3d1966df6f6a254fc68a94b7e575a5510fa088e2a1fc8",
+      "bytes": 31507,
+      "historical_last_change_commit": "db0017ac29e1dc48261ffe61cccb22407e2b022c",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8p-viz-alternative-paths-research.md",
+      "sha256": "9c51de54d985e7ef15e97f73e9038df1a347ec833a34fd16b04b0266531b660b",
+      "bytes": 36366,
+      "historical_last_change_commit": "b1f3dba9eed191a44f6f594e9f9ad3c8e472fc57",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8q-game-launch-stack-research.md",
+      "sha256": "c1ea02ad062e2bc4aef1320cb978a86f8fd3756ce61478ef9161a7d06e74256f",
+      "bytes": 15066,
+      "historical_last_change_commit": "8690dd1327e9f4b2ddd4146ddf17c83eae6b00e3",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8r-fez-x64-runtime-validation.md",
+      "sha256": "a7be2e368c438cc3ebc6a32548bf3be4bedd1bfab20915d53e59687a58f1290c",
+      "bytes": 13876,
+      "historical_last_change_commit": "c85c915549a87c811d01fa81991b0aedf0316fe2",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8s-native-wayland-visibility.md",
+      "sha256": "37642252e7b6e325d83d4692006596f899679bd7d06b4418be8c3db8f0f73b25",
+      "bytes": 15041,
+      "historical_last_change_commit": "4703e44e72c9461b777d9a8e091b04be16991b94",
+      "included_text": false
+    },
+    {
+      "path": "reports/M8s-steam-ui-render-scale.md",
+      "sha256": "7fab8ed4de28c2c4dad916de21215fd5e4a45a3b764acdbbc603713939c7375b",
+      "bytes": 13002,
+      "historical_last_change_commit": "f9b1ab6af6bffbe8d4ac18811b5d4519a3181bc8",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9A-box64-4-recovery-readonly-2026-10-08.md",
+      "sha256": "75c74a2b600f51b545f726258f39b10664f15cd6c49c63b50b62925dcc9e737c",
+      "bytes": 7567,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9A-proton-we-were-here.md",
+      "sha256": "0e1d247dc5207cf720ef4121ff27818f7b431fd7abf7dac9f383f293eead1351",
+      "bytes": 15927,
+      "historical_last_change_commit": "96ab4755bc847004160368a128427673e3fd1f0e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9B-wwh-launch-gate-and-next-tests.md",
+      "sha256": "d0948290df623b1f5296807e3cddc817d4bd5c202e4c852dc64b6ab26fda2ea7",
+      "bytes": 19614,
+      "historical_last_change_commit": "96ab4755bc847004160368a128427673e3fd1f0e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9C-real-launches-box64-fex.md",
+      "sha256": "052b1d13648e4b13c26234c00e0f3e121c7efd79eeda745d9f8cfe95d48bab0a",
+      "bytes": 17317,
+      "historical_last_change_commit": "3fdc73d8f6055f80ebb4d85b037bde68992f548e",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9D-vulkan-in-runtime-fixed-wwh-box64.md",
+      "sha256": "b1aede7b7691bb4426933abc5ba77f883225cac088bfb5e632ff3effc6912c63",
+      "bytes": 17834,
+      "historical_last_change_commit": "34b0d887a2b1e8cf1bc31cd12a587d6180bd6d23",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9E-icd-wrapper-fixture-fixes-and-box64-stall-partial.md",
+      "sha256": "8e32d94e38cb16639573377b3a1e0042743bb80ca41f2ee19de8b5bf8eb8d30f",
+      "bytes": 15246,
+      "historical_last_change_commit": "9acb5490afa4a017714abef5d4c59bb51e8855b3",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9F-native-vulkan-wayland-presentation-pass-and-frog-gates.md",
+      "sha256": "4a0429c2688793ea74b5847457760f93bdd3697c906eac22472c07ba1db980bb",
+      "bytes": 11858,
+      "historical_last_change_commit": "9acb5490afa4a017714abef5d4c59bb51e8855b3",
+      "included_text": false
+    },
+    {
+      "path": "reports/M9G-safe-nvidia-init-frog-hook-and-eglstream-stop.md",
+      "sha256": "aacca811c6e77b8d103feae59ee8aaededc05185cfae8eb7665d812ae42e7fac",
+      "bytes": 9257,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9H-gpu-timeout-localization.md",
+      "sha256": "b5d836d5d1934c58218dc01477f8726328332af4769550d5256e2c55afd9867a",
+      "bytes": 18968,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9H-run-card-frog-synth.md",
+      "sha256": "5b1414146add0576cd1a039e970a3eaccd5b62f6435b0cf920e26942f89458bc",
+      "bytes": 10159,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9I-d3d11-frog-diagnostic.md",
+      "sha256": "2874a37306e1753c04272e3282dcae7a6b6582ad6a8c9eeb4a271e7737ae7dbd",
+      "bytes": 12667,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9J-launch-options-loss-and-cleanup.md",
+      "sha256": "04ddcc999c59375a4d50d08799d010523010996bf24fef52fe41e71d6a8f1f5a",
+      "bytes": 5768,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9K-unturned-box64-first-run.md",
+      "sha256": "664743b74459ecbcf928ba04941c568016c750db5ead7f8a84d0b1af47b6480f",
+      "bytes": 9220,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9K2-hl2dm-checkpoint.md",
+      "sha256": "1e59f5d778d262f9f4407543aea77f54757f4d438cf67e312146c2c5024e076f",
+      "bytes": 7157,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L-night-checkpoint.md",
+      "sha256": "0808a397e3b3f1a7b178151cc829d70bc03b844d21df9495b7e280b928a78e56",
+      "bytes": 7474,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L10-fex-x64-display-blocker.md",
+      "sha256": "839be3f77fd795770b86c2ad39d70c3eea4a6344baec16627225086c44823454",
+      "bytes": 16699,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L11-fex-x64-winex11-fix.md",
+      "sha256": "a580179c767ce60702a29b66cd6420e8d30f250f456be32a8bbe0129064f99b3",
+      "bytes": 22928,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L12-pc-wayland-query-qualification.md",
+      "sha256": "861a649ed47c19686afb622c0223d3bba11d9ce874bf97764c6347f1952dc11d",
+      "bytes": 15753,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L12-run-card.md",
+      "sha256": "f43b9e78d665de9189dfc1c310987191c53c3d4b9fdd4ceae88c92a97e19db09",
+      "bytes": 5415,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L12-wayland-surface-queries-cause-and-fix.md",
+      "sha256": "2b0eced4fbe1a0f2901a329ef500f7f593e06ea3bc0fa610d5ade1ca69a7e0d3",
+      "bytes": 15901,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L13-x64-fex-frog-visible-presentation.md",
+      "sha256": "23c484bd2f3cecab7bb1f4bdf70f6f20c0ebd573061ceeefb4241e8079d85737",
+      "bytes": 13798,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L14-eglstream-consumer-failure-localization.md",
+      "sha256": "0f9dc77aa93792e7d158c3acbe5e7520ce4d00f0b769406b5abc1616c6183338",
+      "bytes": 30215,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L15-eglstream-lifetime-fix-and-package.md",
+      "sha256": "09bd74cff0d3a14bda78c3e26a57d962988f5cfd3549c647a87649d5b526a199",
+      "bytes": 22320,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L15R-build-base-and-wiring.md",
+      "sha256": "7fcfbc8757ecd0412cd38fa8419b6cc1632a46d5a437384330344b2abe178aae",
+      "bytes": 14221,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L16-fixed-capture-result.md",
+      "sha256": "fd74b798089ea8b53b4073756195cdc13f1d7520539f917401624b77a37de490",
+      "bytes": 13378,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L16-wiring-harness-pc-verified-ssh-blocked.md",
+      "sha256": "9b84be38f3493538a4d63d5671338906ec894dbde160b87f17b5257a2c2dd7bb",
+      "bytes": 8163,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-overnight-fex-continuation.md",
+      "sha256": "66bdfdcf1f41bed15aae57794e7e93d56531f8c91fdc69262c8dcc8d8f861cdd",
+      "bytes": 27453,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-private-fex-hl2dm-progress.md",
+      "sha256": "e161e04b12bfe1757ab4c5af0f9b7c746578e9c2cbb095684595ccb047dfee44",
+      "bytes": 11017,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-storage-pressure-and-verified-cleanup.md",
+      "sha256": "30a2e9251af1beb973e46dc03b27df7215b15d01f2e2d99760db3cc67fd0eac6",
+      "bytes": 15070,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-trace17-pc-finalization-and-envelope.md",
+      "sha256": "06bc03e763f57f37b0c21d2d82e983f7b208db4473bda325ed59a7ef24976848",
+      "bytes": 7429,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-trace17-r3-coordinator-entry-review.md",
+      "sha256": "e452da39fbc7fda577c37cea49c0f0194dbed905da2ad904c827c89f0b3d9441",
+      "bytes": 3613,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-trace17-r3-entry-readiness.md",
+      "sha256": "c170bb19a96e3f2cb9fc02ac8a975f8ae0f01040e5191c213205c58f28939ebe",
+      "bytes": 12489,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-trace17-r3-final-coordinator-decision.md",
+      "sha256": "6dafa1c0ae40bbf0e31ec83809f0fd40af66cc6c2be8980423a745e2463392c5",
+      "bytes": 2934,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-trace17-r3-unit-result.md",
+      "sha256": "4d541f221ba2dd0c67769d273f8bf82b6fce757911a51fe4cf381834a1e09b1b",
+      "bytes": 6131,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-trace17-stop-coordinator-disposition.md",
+      "sha256": "7dcfa0985d19de9767d488d5147d348484b8d239a408da37f7c3d37f2a3afdc0",
+      "bytes": 4410,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L17-unmap-before-frog-teardown.md",
+      "sha256": "6ae4f54b5d4286d681287c80dfe0796df830b9c6ffa4317359df2631ad2947fb",
+      "bytes": 22220,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L2-fex-console-steamapi.md",
+      "sha256": "181365327cf629ab8ee610438fd331efefc2848f4d9acab8615874dd07543d01",
+      "bytes": 8067,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L3-fex-steam-launch.md",
+      "sha256": "735a8ce5e0a7bdbaf10a438d08df28584e7ea55fa969e8b0d1fd915794c7224f",
+      "bytes": 10643,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L4-fex-mapping-and-offscreen-package.md",
+      "sha256": "f4ee4953b3613c01fa16384f5d0271bb613bae7c93e5813bc892b86997db240f",
+      "bytes": 8679,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L4-gpu-run-card.md",
+      "sha256": "5e86524686dad172a41c3116730cfde673beb5530fda4440891e011b70b3fc2e",
+      "bytes": 10531,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L4R-offscreen-package-review-fixes.md",
+      "sha256": "0523800ba34e755230a6dc3dacdb3d59ce799e7d2a08e4362811cdfcd33a199a",
+      "bytes": 10672,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L5-fex-offscreen-gpu-unit.md",
+      "sha256": "3d2b5fabca31aed4897c853db7e35cd018a378c7f3da34476e43abf416821e60",
+      "bytes": 13797,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L6-fex-desktop-readiness-fix.md",
+      "sha256": "c5c658992e958fd57224f793fd437ae38d34686eb4b13e316eab16fba1872dfb",
+      "bytes": 17262,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L7-fex-offscreen-gpu-unit.md",
+      "sha256": "e2688226dab0731c1bfc0d0b978f5225930281f95ee583b73d04ec340a2fbc1c",
+      "bytes": 11909,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L8-fex-vulkan-boundary.md",
+      "sha256": "b2f78f8195dc05e41be7a0ed9b2452b46cee6d8b74633c5779d3395d92cf8c19",
+      "bytes": 12110,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9L9-fex-offscreen-ok.md",
+      "sha256": "587eb27c8fa6e521879ab9a372752b64c7d449d2478714f53c4722076d49f698",
+      "bytes": 10568,
+      "historical_last_change_commit": null,
+      "included_text": false
+    }
+  ]
+}
