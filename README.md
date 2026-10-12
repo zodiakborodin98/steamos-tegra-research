@@ -1,5 +1,15 @@
 # SteamOS on Tegra / Nintendo Switch: engineering history
 
+> **Development status: not suitable for everyday use.**
+> This project is a research prototype, not a practical SteamOS gaming system at
+> this stage. Serious performance, stability and game compatibility limitations
+> remain. The sources are published for research and development.
+>
+> **Текущее состояние: проект непригоден для повседневного использования.**
+> Это исследовательский прототип. Существенные ограничения производительности,
+> стабильности и совместимости с играми делают практическое использование системы
+> крайне затруднительным. Исходники опубликованы для разработки и исследований.
+
 This is the public research record of an experimental SteamOS userland and
 Gamescope port to a Tegra X1 Nintendo Switch. It describes the implementation,
 the boundaries that actually passed on hardware, failed and abandoned approaches,
