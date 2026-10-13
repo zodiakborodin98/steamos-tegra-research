@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-12",
-  "file_count": 18,
+  "snapshot_date": "2026-10-13",
+  "file_count": 19,
   "files": [
     {
       "path": ".gitattributes",
@@ -19,51 +19,6 @@
       "sha256": "b90ed8150a6d371c84b7dbaa680cd0e9893ef7c2558765e1e00930513efcfe3b"
     },
     {
-      "path": "docs/ARCHITECTURE.md",
-      "bytes": 8834,
-      "sha256": "f36ec507b8c6ceb7db23157172817f88810368d8a1fe7c4b41cd6c562ef5c0b5"
-    },
-    {
-      "path": "docs/BASELINE-AND-EVIDENCE.md",
-      "bytes": 8220,
-      "sha256": "55bd1425434dd79d09b2b80498513e2725df9d8feaac46fd9c48528ad2c8bf9c"
-    },
-    {
-      "path": "docs/BLOCKERS.md",
-      "bytes": 18725,
-      "sha256": "0a905db807128c47ed2db9e0e8eb30285c06431dc2121a0a597c23340c6c44c9"
-    },
-    {
-      "path": "docs/CLOSED-BRANCHES.md",
-      "bytes": 6446,
-      "sha256": "d66a98495a3be8f679615d39245f3e61f05c1012bd56185a0d18058c5d8daa02"
-    },
-    {
-      "path": "docs/IMPLEMENTATIONS.md",
-      "bytes": 11338,
-      "sha256": "788460d18245cff5ca8fb1884e11240c0de2f79618ee50946df72e6993137cf4"
-    },
-    {
-      "path": "docs/OVERVIEW-RU.md",
-      "bytes": 8715,
-      "sha256": "87b55df743579d7277b996fa4f3cbcf282d30ccfc8b37633ec4468bf541e8bc3"
-    },
-    {
-      "path": "docs/ROADMAP.md",
-      "bytes": 4380,
-      "sha256": "c3ecd347d0f4f2b3966334ff19e8830b27af5b613b2d67f6c3bfe236adedfef9"
-    },
-    {
-      "path": "docs/SOURCE-REFERENCES.md",
-      "bytes": 4064,
-      "sha256": "4b90efcfe4bb60de94a266d118b958cdcb3f55ff9a28d50348dfff3f12d9f38c"
-    },
-    {
-      "path": "docs/TIMELINE.md",
-      "bytes": 13624,
-      "sha256": "7803d7136bc18da2fa1e1ad71fb9457401781ae5be984a2297f0e5e9cccb40df"
-    },
-    {
       "path": "LICENSE",
       "bytes": 732,
       "sha256": "e1c06a7783e4aa687abab1a23dcf40298505a12e60522265f8807d5ebfd06dd2"
@@ -75,8 +30,58 @@
     },
     {
       "path": "README.md",
-      "bytes": 6514,
-      "sha256": "20c60e680814cb7dc4e9cd4d446c276c3d13886971301447e294d38c9e3d75b2"
+      "bytes": 7136,
+      "sha256": "35a38722882e42c9bb1ac5a4e93d7c425d9b5125ab8d27b2b030c8f2a7557fac"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 9245,
+      "sha256": "d31a00c7297e5425c08ee68d7f35e0657281601b18b90b401417b28d9f7ff0fa"
+    },
+    {
+      "path": "docs/BASELINE-AND-EVIDENCE.md",
+      "bytes": 8635,
+      "sha256": "eab160a7a3c7b9cbf2d6f2196f1c430a35bad282a8b94371218e2c1ef9b74e9d"
+    },
+    {
+      "path": "docs/BLOCKERS.md",
+      "bytes": 20539,
+      "sha256": "03e73279c8eb5365bb9543411e5d16f1e0478542d7dd8732e9a9941ff73a3871"
+    },
+    {
+      "path": "docs/CLOSED-BRANCHES.md",
+      "bytes": 6859,
+      "sha256": "95f1fa1155016b0df47597b8df7390958b20dcb8d2d98755faa546a624af9416"
+    },
+    {
+      "path": "docs/IMPLEMENTATIONS.md",
+      "bytes": 11751,
+      "sha256": "d2e56f287eb22825fa27c345e5a21a249480dbc6649c74e8da58011a8812d382"
+    },
+    {
+      "path": "docs/OVERVIEW-RU.md",
+      "bytes": 9497,
+      "sha256": "f5aeaab3f2cb1890c830d0f25514b1a3fda4e1e285e87f8229f9cce1a2e6a6f9"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 5318,
+      "sha256": "822e8703a26c656a92f6e9d4a316f0c82dfe2bd92533e33ce257d8491f2f44ed"
+    },
+    {
+      "path": "docs/SOURCE-REFERENCES.md",
+      "bytes": 4476,
+      "sha256": "fe59cea12523a455da5691b6264f104fe36faecc04e02aa28e3a31f2be4238c0"
+    },
+    {
+      "path": "docs/TIMELINE.md",
+      "bytes": 14042,
+      "sha256": "b8aff90e0dc4d34648491ae6d58c2dea947e76ee8a8b2bbcc21a492ff34f589a"
+    },
+    {
+      "path": "docs/ZINK-STEAM-UI.md",
+      "bytes": 7464,
+      "sha256": "b582eff73aa6020473679014205ddbca257e3a8284b8b8701152c31b6236748b"
     },
     {
       "path": "sources/inputs.json",
@@ -85,17 +90,13 @@
     },
     {
       "path": "sources/publication-validation.json",
-      "bytes": 357,
-      "sha256": "3f5ba7982bfeee3ae7295de723593805c9ee87faec18dab40d3a6ecadae86bbb"
+      "bytes": 400,
+      "sha256": "18294f5b454679ece5f3a4cee6d505f6d53ad59a1b8621e4bd1cc56a2c15119b"
     },
     {
       "path": "sources/reports.json",
-      "bytes": 61264,
-      "sha256": "bd6d201af503900b39bf5482b4733577df85a4be51855f8f95a6fbeac00aa8dd"
+      "bytes": 62486,
+      "sha256": "c55f6471b94c94657dcd6f7dfa574d9ad4b87d60d9ed00513d3092776ee6eb65"
     }
-  ],
-  "excluded_inventory_files": [
-    "PUBLICATION-MANIFEST.json",
-    "SOURCE-MANIFEST.sha256"
   ]
 }

@@ -1,5 +1,11 @@
 # Blocker ledger and corrected conclusions
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 Status is scoped to an exact route/version and evidence level. **RESOLVED** does
 not mean every adjacent component works. **OPEN** is an observed boundary or an
 unqualified requirement. **RETRACTED** identifies an incorrect earlier diagnosis.
@@ -22,7 +28,7 @@ the underlying development record; curated hashes are in `sources/reports.json`.
 | B06 | Two vblanks/POLLIN alone imply reusable buffer | **REJECTED.** Own fence-info aggregate/points must be validated; ERR/HUP/NVAL cannot be successful retirement | M1c; M3f–h |
 | B07 | Modern SYNC_IOC_FILE_INFO ENOTTY | **RESOLVED for tested kernel.** Legacy staging sync-fence-info fallback only on ENOTTY, checked chain/status | M3g2; M3h |
 | B08 | Waiting on current front buffer; PUT_WINDOW before close | **RESOLVED design.** Retirement after successor/owned close; maintain ownership until close | DECISIONS; M3e–h |
-| B09 | First120s draw looked healthy but cleanup failed | **RESOLVED.** Opt-in whole-FB bookkeeping budget corrected; repeat120s probe+guard+restore passed | M3k3; M3l; M3m0 |
+| B09 | First120 s draw looked healthy but cleanup failed | **RESOLVED.** Opt-in whole-FB bookkeeping budget corrected; repeat120 s probe+guard+restore passed | M3k3; M3l; M3m0 |
 | B10 |30-minute presenter was PASS | **RETRACTED.** Last partial observations healthy, final RAM evidence lost; PARTIAL/UNVERIFIED. Gate later reduced, not magically passed | M3o/M3o2 |
 | B11 | loop1 I/O errors prove GPU failure/media failure or harmlessness | **OPEN historical scope.** Controlled zeroout lines support rejected DISCARD/software-zero fallback; general media/opcode health not established | M5b correction; M5e |
 | B12 | Exact kernel source recovered from matching config/build date | **OPEN.** Boot payload/config match strongly; exact build149 commit unknown. Candidate kernel not exact-source proof | M4b/M4c |
@@ -56,7 +62,7 @@ the underlying development record; curated hashes are in `sources/reports.json`.
 
 | ID | Boundary / earlier claim | Resolution and current status | Key sources |
 |---|---|---|---|
-| B33 | Mesa26 Zink on Vulkan1.2.131 | **CLOSED VERSION.** Required dynamic rendering absent; Mesa24.2.8 separately supports render-core gates | Zink feasibility/renderzink1 |
+| B33 | Mesa 26 Zink on Vulkan 1.2.131 | **CLOSED VERSION.** Required dynamic rendering absent; Mesa 24.2.8 separately supports render-core gates | Zink feasibility/renderzink1 |
 | B34 | T1/T2 Zink imply Steam compatibility | **REJECTED extrapolation.** Render-only/T1 transport/T2 GLX window real; T3 actual Steam stopped at DISPLAY-conditioned enumeration | T1/T2/T3 |
 | B35 | DISPLAY discriminator never measured | **RETRACTED.** zdisc2 already proved unset/:0/unset contrast; sentinel99 is unchanged storage, not device count |7040a25;ba59658 |
 | B36 | No compliant Steam in-process recipe proves universal helper necessity | **CORRECTED.** No qualifying recipe found under constraints; not all future architectures impossible | client-init-decision review |
@@ -102,7 +108,7 @@ the underlying development record; curated hashes are in `sources/reports.json`.
 | B66 | Consumer timeout/SJob lifetime | **RESOLVED PC candidate.** Queue kept pointer to dead stack job; false completion/UAR/UAF reproduced; shared ownership/retirement fix passes | M9L14/M9L15 |
 | B67 | TEARDOWN timeout followed by record/slot free | **RESOLVED PC candidate.** Deferred GL cleanup, owner pins/finalization; strict actual-TU tests/ASan | M9L15 |
 | B68 | Lifetime fix proves cause/cures original0x321c | **REJECTED.** No job timeout in M9L13; M9L16 new-stream connect still fails. BAD_STATE cause not established | M9L14/M9L16 |
-| B69 | M9L13 failed at~18s in MAILBOX | **CORRECTED.** FIFO actual; last second~20s; subsecond teardown ordering originally unknown | M9L14 correction |
+| B69 | M9L13 failed at~18s in MAILBOX | **CORRECTED.** FIFO actual; last second~20 s; subsecond teardown ordering originally unknown | M9L14 correction |
 | B70 | M9L15 first full ELF faithful to accepted | **RETRACTED artifact.** Linked wrong M8g flat/focus base; NOT FOR DEPLOY. Corrected bit-exact control/narrow release qualified | M9L15R |
 | B71 | Late Xwayland fallback during visible-window Vulkan destroy | **SUPPORTED controlled mitigation.** Unmap ACK before teardown removes late gen4 in unit05/06, finalizes gen3; not all closed games/old faults proven same cause | M9L17 unmap units05/06 |
 | B72 | M9L17 private FEX selector/helper closure | **OPEN actual qualification.** Stock-backed ntdll realpath can redirect child loader; private native anchor copied; detailed predicates and V8 metadata candidate prepared | private-fex progress;overnight |
@@ -133,3 +139,20 @@ Other historical open issues — exact kernel build source, universal storage
 health, every-model support, complete image reproducibility, HDR/VRR/docking,
 all physical touch transitions and32-bit Windows support — are not claimed
 closed because a narrower alpha goal passed.
+
+## M9R update: new route-specific resolutions
+
+| ID | Boundary | Result13 October2026 |
+|---|---|---|
+| B86 | Steam/CEF ICD initialization under DISPLAY=:0 | RESOLVED for qualified fresh-exec early native bootstrap; DISPLAY restored before UI work |
+| B87 | CEF actual GL 4.3/GLSL 430 requirement vs GL 4.2 | RESOLVED for exact private application copy; driver capabilities not spoofed |
+| B88 | CEF texture-from-pixmap reaches unavailable DRI3 | RESOLVED opt-in real pixmap readback/Zink upload; null error path fixed |
+| B89 | Child CEF content absent from final framebuffer | RESOLVED measured XCB child-image upload/T3 delivery |
+| B90 | Depth/stencil attachment layout3->4 missing barrier | RESOLVED guarded real legacy-blit image barrier |
+| B91 | T3 resize mutates immutable VkImage extent | RESOLVED in isolated native GPU readback test and later Steam UI profile |
+| B92 | Restart exhaustion of orphan shared memory | CLEANUP RESOLVED startup symptom; automatic orphan prevention remains OPEN |
+| B93 | High CPU / repeated pixel transfers after GPU rasterization | OPEN performance work; actual CPU hotspot percentages and physical FPS not measured |
+
+These resolutions do not re-open proprietary NV-GLX/extension spoof branches or
+transfer UI acceptance to Wine/DXVK game teardown. Diagnostic-off mode is a new
+user-requested profile change, not yet a measured performance improvement.

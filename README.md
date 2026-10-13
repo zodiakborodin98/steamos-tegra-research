@@ -16,15 +16,19 @@ the boundaries that actually passed on hardware, failed and abandoned approaches
 and the remaining work. It is documentation, not an installation image or a
 claim that arbitrary Windows games work.
 
-**Status date: 12 October 2026.** The last measured development unit stopped on an
-EGLStream consumer error during Steam UI startup, before any FEX/game action.
-The accepted UI was restored. A startup-only capture package is PC preparation;
-no newer successful hardware capture is claimed here.
+**Status date:13 October 2026.** The current development baseline runs 854x480
+Steam UI on Zink/NVIDIA, with hardware180 s and physical-screen user confirmation.
+The user then reported about an hour of navigation without noticed UI bugs.
+Optional diagnostics have just been disabled by request; the subsequent visual/
+performance verdict is pending. [Actual route and remaining CPU work](docs/ZINK-STEAM-UI.md).
+Historical EGLStream/game failures remain open; UI success is not a universal game PASS.
 
 The strongest completed paths are:
 
 - An NVIDIA Vulkan compositor with GPU conversion to Tegra block-linear/GOB
   scanout and direct legacy Tegra DC `FLIP4` output to the LCD.
+- Native Steam/CEF GPU UI using Mesa 24.2.8/Zink/T3; persistent 480p profile,
+  independent UI/game geometry, and short-test human confirmations through720p.
 - Automatic Steam UI startup, low-resolution UI, correct baseline orientation,
   audio wiring and device integration on the tested console.
 - Native Linux x86-64 Super Meat Boy and FEZ, translated through Box64, with
@@ -42,6 +46,7 @@ performance and presentation geometry still have open limitations.
 
 | Document | Purpose |
 |---|---|
+| [Zink UI and CPU work](docs/ZINK-STEAM-UI.md) | Current480p GPU path, repairs, performance limits |
 | [Russian overview](docs/OVERVIEW-RU.md) | Practical introduction and current priorities |
 | [Architecture](docs/ARCHITECTURE.md) | Display, transport, UI, Linux games and Windows/FEX paths |
 | [Timeline](docs/TIMELINE.md) | Alpha bring-up through M9L18 preparation |
@@ -91,8 +96,9 @@ textures, UI frames and multiple windows can be included.
 The original CPU-compatible Steam path used private A57-safe Mesa/llvmpipe in the
 client. Gamescope itself rendered and scanned out on NVIDIA. Later System
 Composer removed the active llvmpipe BrowserComposer stage while retaining CPU
-CEF OSR output and the private libraries needed for compatibility. Neither
-history establishes GPU Zink rendering of the actual Steam UI.
+CEF OSR output and the private libraries needed for compatibility. Those were historical boundaries. On13 October the private Mesa 24.2.8/T3
+repairs and early native ICD bootstrap produced actual GPU Zink Steam UI; CPU
+OSR/copies remain. See the current route document for evidence and limits.
 
 ## License
 

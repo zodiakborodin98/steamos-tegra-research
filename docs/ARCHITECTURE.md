@@ -1,5 +1,11 @@
 # Architecture and the boundaries between components
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 ## Tested platform and boot
 
 The early installed baseline combined an official ARM64 SteamOS/Frame userland

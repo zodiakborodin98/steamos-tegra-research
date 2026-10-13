@@ -1,5 +1,11 @@
 # Baseline identities, reproducibility and limits
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 ## Historical accepted inputs
 
 | Input | Identity / historical role |
@@ -15,11 +21,11 @@
 | Switchdeck historical reference | `be0578fbf00c5a14a988a830f914f2c34cdaa1a1` |
 | Candidate kernel source | `7d95822acda1f6dab3f3d1d099b43ff9e0d0e626`; not exact build149 proof |
 | Legacy sync reference | OE4T/Linux-Tegra4.9 `78abfa9d9f4c9bc47c91b64a4f1a02952b67db0e` |
-| A57 Mesa software source | Mesa26.0.3; tar SHA256 `ddb7443d328e89aa45b4b6b80f077bf937f099daeca8ba48cabe32aab769e134` |
-| Zink historical source | Mesa24.2.8, separate from the26.0.3 llvmpipe source |
+| A57 Mesa software source | Mesa 26.0.3; tar SHA256 `ddb7443d328e89aa45b4b6b80f077bf937f099daeca8ba48cabe32aab769e134` |
+| Zink historical source | Mesa 24.2.8, separate from the26.0.3 llvmpipe source |
 | FEX tool tested | Proton11.0-1 ARMv8.0; native ARM Wine11 + WoW64/ARM64EC-FEX |
 | DXVK game/offscreen reference | DXVK-Sarek1.13.0; private M9L9 opt-in offscreen variant separately identified |
-| Driver/device | L4T32.7.4; Tegra X1 revB; physical Vulkan1.2.131 |
+| Driver/device | L4T 32.7.4; Tegra X1 revB; physical Vulkan 1.2.131 |
 
 These are evidence identities, not redistributed binary download instructions.
 No ELF/kernel/rootfs payload is in this research repository. When an input is

@@ -1,5 +1,11 @@
 # Next engineering work
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 ## Current first boundary: startup EGLStream state
 
 Trace17 R3 was a real unit with rc11, a sticky first-fault STOP and intact remote
@@ -59,7 +65,7 @@ actual stage, fault/rc and evidence.
   separate; active composition must not be inferred from maps alone.
 - Linux x64 Wayland SMB and FEZ launch options/runtime/focus. Changes to game
   compatibility mapping must not destroy unrelated VDF entries.
-- Offscreen FEX D3D11 exact readback and raw-FEX visible20s/240s controls, with
+- Offscreen FEX D3D11 exact readback and raw-FEX visible20 s/240s controls, with
   their private variant/lifecycle limits.
 - Audio, existing input, sleep/resume, autostart and rollback anchors.
 
@@ -74,3 +80,13 @@ current consumer boundary. They are not implied complete by publication of code.
 UI performance work stays parked unless specifically reprioritized. Its last
 measured bottleneck is CPU CEF/Viz OSR cost, and a720p GPU-native capture consumer
 would be a new architecture, not a collection of the already-failed flags.
+
+## Current priorities after working Zink UI
+
+1. User acceptance of the diagnostic-off480p profile; matched CPU/UI measurements.
+2. Profile browser/renderer/GPU/T3 work before choosing optimizations; reduce
+   readback/copy/synchronization costs without removing ownership/error checks.
+3. Preserve CPU rollback while qualifying cold boot, long soak and game launch/exit.
+4. Address remaining game EGLStream lifecycle/orphanSHM failures independently.
+
+No old hardware run card is automatically authorized by these documents.

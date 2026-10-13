@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-12",
+  "snapshot_date": "2026-10-13",
   "purpose": "Curated original development report identities; raw report text is not distributed.",
   "historical_commit_scope": "Original development record, not this public repository.",
-  "report_count": 221,
+  "report_count": 226,
   "reports": [
     {
       "path": "reports/installed-rootfs-identity.md",
@@ -1549,6 +1549,41 @@
       "path": "reports/M9L9-fex-offscreen-ok.md",
       "sha256": "587eb27c8fa6e521879ab9a372752b64c7d449d2478714f53c4722076d49f698",
       "bytes": 10568,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9R-native34-t3-resize-defect.md",
+      "sha256": "eec572bd541ebb8597e96b13e0223bcc2b398f84346ec2388d3e9cf494200324",
+      "bytes": 9620,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9R-ui43-720p-zink.md",
+      "sha256": "4887d1eac1667a6cdd61d813121c6e2372b1fdc5a4f8def408bf80ef69731a5d",
+      "bytes": 3829,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9R-ui44-540p-zink.md",
+      "sha256": "f343d4a3c1453ea0ca677278fb7c6152a587575e73101ec248ed52284e38a95a",
+      "bytes": 2857,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9R-ui46-480p-zink.md",
+      "sha256": "6102db94b04d3704f4a9281bf5f7a362abc80960d91094d2672b2a92ed2f14e9",
+      "bytes": 3372,
+      "historical_last_change_commit": null,
+      "included_text": false
+    },
+    {
+      "path": "reports/M9R-ZINK-BASELINE-480P-CHECKPOINT.md",
+      "sha256": "8c31fed5b084b4f387a1a7005e1a37e0807907f8aa47567907f839c81639d753",
+      "bytes": 14894,
       "historical_last_change_commit": null,
       "included_text": false
     }

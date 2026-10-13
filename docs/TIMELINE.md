@@ -1,5 +1,11 @@
 # Milestone timeline
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 All outcomes below belong to their recorded runs. Dates are historical; no
 hardware reruns were made while preparing this publication. A sequence of
 successful component tests is not an unmeasured combined-system PASS.
@@ -8,7 +14,7 @@ successful component tests is not an unmeasured combined-system PASS.
 
 | Stage | Implementation / result | Limit |
 |---|---|---|
-| Boot0 diagnostics | Switchroot boot and NVIDIA compute readback; later physical display observation | Earlier NVIDIA32.3.1/Vulkan1.1.85 stack; not the later installed Alpha |
+| Boot0 diagnostics | Switchroot boot and NVIDIA compute readback; later physical display observation | Earlier NVIDIA32.3.1/Vulkan 1.1.85 stack; not the later installed Alpha |
 | ARM SteamOS bring-up | Official userland restoration, metadata/ELF checks, controlled staging and ext4 image packaging | QEMU/user-mode checks are not Switch kernel/GPU/Steam acceptance |
 | Alpha1 | Hekate→Switchroot/L4T→SteamOS0.3, SDDM/Xorg/Openbox/Steam-style session | Initially host Xorg and Zenity menu, no native Gamescope backend |
 | M0 | Installed lower/kernel/driver inventory; per-process NVIDIA ICD selection resolves wrong Freedreno SIGILL | No presenter implementation yet |
@@ -25,8 +31,8 @@ successful component tests is not an unmeasured combined-system PASS.
 | M3e | Four direct FLIP4 frames, user-confirmed clean pattern | No reuse/soak/Game Mode |
 | M3f–M3h | Legacy sync-fence retirement;120 submissions/117 retirements+reuse, clean return | Modern ioctl ENOTTY handled explicitly; no sleep/POLLERR shortcut |
 | M3i–M3j |600 then1800 frame bounded tests; validated ordering and finite resource telemetry | Cadence/submission counts not panel FPS or universal leak freedom |
-| M3k–M3m0 | First120s commission failed cleanup bookkeeping; scoped budget fixed; repeat120s passed | First attempt not retroactively PASS |
-| M3m–M3o |30-minute run launched; last observed counters healthy; final RAM evidence lost after network loss/reboot | PARTIAL/UNVERIFIED; later120s gate accepted for integration, no30min PASS |
+| M3k–M3m0 | First120 s commission failed cleanup bookkeeping; scoped budget fixed; repeat120 s passed | First attempt not retroactively PASS |
+| M3m–M3o |30-minute run launched; last observed counters healthy; final RAM evidence lost after network loss/reboot | PARTIAL/UNVERIFIED; later120 s gate accepted for integration, no30min PASS |
 | M4 | Actual boot/kernel/config identity compared with retained Alpha artifacts | Exact build149 source commit unknown |
 | M5 | ext4 unwritten-zeroout/loop-discard fallback studied with deterministic readback | Controlled lines explained conditionally; general media health unknown |
 | M6a | Renderer feature/path audit corrected; unsupported DMA-BUF/null-descriptor assumptions removed | A display backend alone cannot fix renderer capabilities |
@@ -103,11 +109,11 @@ successful component tests is not an unmeasured combined-system PASS.
 | M9L10 | Visible client refuses: x64 window absent | “Thin winex11 PE is a nonfunctional stub” retracted next stage |
 | M9L11 | Desktop display GUID/GraphicsDriver registration fix; real x64 winex11 window and FROG conversion | Wayland caps return−3 inside ARM runtime |
 | M9L12 | Delayed bare-name NVIDIA producer dlopen gap fixed; host/runtime/Wine surface queries match | Swapchain/mapping not yet tested there |
-| M9L13 | Create-only PASS;20s visible x64/FEX Vulkan human PASS | Consumer BAD_STATE at end;240s not run |
+| M9L13 | Create-only PASS;20 s visible x64/FEX Vulkan human PASS | Consumer BAD_STATE at end;240s not run |
 | M9L14 | Latent queue UAR/UAF and teardown UAF reproduced on PC; fixes/logging | Not proven cause of original EGL BAD_STATE |
 | M9L15/R | Lifetime/retirement/owner pins; independent review; narrow release with bit-exact accepted control | First linked candidate wrong build base, explicitly NOT FOR DEPLOY; release corrected |
-| M9L16 |20s fixed candidate visible; client exits cleanly | Late new stream connect0x321c; fix did not eliminate transition failure |
-| M9L17 units05/06 | Hidden-before-teardown ACK;20s and240s raw-FEX Vulkan machine+human PASS; generation finalizes | Forced Wine-chain cleanup and planned compositor SIGKILL still separate; no game PASS |
+| M9L16 |20 s fixed candidate visible; client exits cleanly | Late new stream connect0x321c; fix did not eliminate transition failure |
+| M9L17 units05/06 | Hidden-before-teardown ACK;20 s and240s raw-FEX Vulkan machine+human PASS; generation finalizes | Forced Wine-chain cleanup and planned compositor SIGKILL still separate; no game PASS |
 | M9L17 private HL2DM | Genuine private FEX tool action; helper selector refusal; private native ntdll anchor and constructor diagnostics prepared | Later V8 metadata-init candidate not actually qualified; game GPU not established |
 | Trace16 / trace17 R3 | Startup/recovery Release0x321c; trace17 rc11 before game action | Shared consumer startup resize is current first hardware blocker |
 | M9L18 preparation | PC-only startup capture wiring using frozen lifetime-fixed candidate | No hardware result claimed; existing STOP retained |

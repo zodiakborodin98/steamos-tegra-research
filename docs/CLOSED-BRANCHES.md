@@ -1,5 +1,11 @@
 # Closed and parked approaches
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 Closed means “do not spend another sprint on the same unmodified premise.” New
 source/driver evidence or a consciously authorized architecture can change a
 decision. An exact route NO-GO is not a proof that no future implementation can
@@ -13,7 +19,7 @@ exist.
 | +iglx/force-direct/extension advertisements | Altering a declaration does not establish actual driver semantics | Real measured compatible context path with truthfully reported capabilities |
 | Generic GBM/DRI3 acceleration on this tegra-udrm stack | Node/device exists but required BO/GEM_CREATE contract absent | Actual allocation/import/lifetime proof from changed provider/backend |
 | Remove Gamescope extension checks/downgrade stock release | Requirements are executable renderer/import paths, not only list strings | Deliberate source path replacement with capability-correct behavior |
-| Mesa26 Zink unchanged | Required dynamic rendering unavailable on L4T1.2.131 | Real backport/revision supporting exact target feature set |
+| Mesa 26 Zink unchanged | Required dynamic rendering unavailable on L4T1.2.131 | Real backport/revision supporting exact target feature set |
 | X11 Vulkan WSI after headless ICD init | Native caps NULL-call path; functional downstream Wayland route available | Different measured compatible WSI backend, no caps/identity spoof |
 | Zink Steam UI production | Render-core/T1/T2 passed; T3 actual Steam initialization failed; no compatible real-process semantics proof | Fresh compliant source/process design and game/UI acceptance under that scope |
 | Venus/vtest out-of-process helper | Selected pinned transport rejects OPAQUE HOST3D FD and mmap/coherency unqualified | Correct full memory transport/coherency implementation, not OPAQUE whitelist edit |
@@ -36,7 +42,7 @@ exist.
 | CPU framebuffer scanout / fakeDRM | Not chosen production direct-GPU architecture | Separately scoped diagnostic/fallback, never presented as accepted GPU backend |
 | zero-copy/PBO/async broad optimization | Copies/lifetime already complex; not current first blocker | Correct stable path and a concrete measured optimization case |
 | gamescopectl screenshot in historical build | Actual assertion/SIGABRT; excluded from further runs | Separately repaired and qualified screenshot path, not automatic use |
-|30-minute presenter rerun solely for lost final evidence | User accepted120s commission for nearest integration decision; old result remains unverified | A new stability requirement, not bookkeeping-driven rerun |
+|30-minute presenter rerun solely for lost final evidence | User accepted120 s commission for nearest integration decision; old result remains unverified | A new stability requirement, not bookkeeping-driven rerun |
 
 Repository publication does not reopen these branches. The source packages
 include documentation and selected experimental patches with their status,

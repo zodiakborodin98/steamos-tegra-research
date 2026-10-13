@@ -1,12 +1,18 @@
 # Implementations and acceptance boundaries
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 ## Display and renderer
 
 | Component | What was implemented | Evidence / limitation |
 |---|---|---|
 | A57 cross environment | Curated target sysroot, explicit ARMv8-A flags, target pkg-config, native scanner/shader tools separation | ELF/provider/ISA qualification; QEMU not target acceptance |
-| Direct presenter | Vulkan buffer storage, GPU GOB transform, Tegra DC window/FLIP4, head enable/restore, triple-buffer reuse | First-frame physical PASS; validated legacy retirement; bounded120s commission |
-| Retirement | Modern ioctl failure falls back only to checked legacy fence-info; no ERR/HUP success or timing-only reuse | Target120/600/1800 and120s tests; not universal kernel proof |
+| Direct presenter | Vulkan buffer storage, GPU GOB transform, Tegra DC window/FLIP4, head enable/restore, triple-buffer reuse | First-frame physical PASS; validated legacy retirement; bounded120 s commission |
+| Retirement | Modern ioctl failure falls back only to checked legacy fence-info; no ERR/HUP success or timing-only reuse | Target120/600/1800 and120 s tests; not universal kernel proof |
 | Gamescope Tegra backend | Standalone output backend and first-frame/live renderer integration | NVIDIA compositor/LCD proven; no DRM Atomic substitute |
 | Renderer feature compatibility | RGB-only route, supported feature chain, real dummy descriptors, LUT specialization key, limited pipeline creation | Avoids pretending unavailable robustness/dynamic rendering/DMA-BUF features exist |
 | GOB shader/orientation | Exact preferred GLSL and generated SPIRV; accepted o180sx1 presenter/first-frame path | Rotation/mirror baseline physically accepted |

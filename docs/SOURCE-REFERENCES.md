@@ -1,5 +1,11 @@
 # Source reference inventory
 
+**Current update 13 October 2026:** [Steam UI now works on Zink/NVIDIA](ZINK-STEAM-UI.md),
+with a persistent 480p profile and CPU rollback. Optional diagnostics are off by
+request; post-change verdict pending. The following record through 12 October is
+historical and does not override the new route-specific UI evidence. Game/consumer
+stability, zero-copy, fresh image and boot qualification remain separate.
+
 This public repository is an original engineering synthesis, not a dump of the
 private development workspace. `sources/reports.json` records a curated set of
 documents that informed it, including exact text-byte SHA256 and the last known
@@ -35,7 +41,7 @@ startup-only classification.
 | Source group | Main contribution |
 |---|---|
 | Alpha/handoff, M0 and BASELINE | Boot/userland/hardware identities and separation from newer untested image |
-| M1–M3 | gman-derived presenter, own-fence retirement, real LCD/120s and unverified30min |
+| M1–M3 | gman-derived presenter, own-fence retirement, real LCD/120 s and unverified30min |
 | M4/M5 | Kernel/config provenance and storage explanation with exact limits |
 | M6/M7d–f | Capability-correct renderer, native integration and OPAQUE transport |
 | M7g | EGLStream/Xwayland/GLX investigation, A57 Mesa/LLVM/depth, Zink tests and helper design |
